@@ -1,0 +1,17 @@
+
+/* Footer */
+
+	#footer {
+		// color: _palette(fg-light);
+		color: #000;
+		margin: -2rem 0 6rem 0;
+		text-align: center;
+
+		@include breakpoint('<=xlarge') {
+			margin: 0 0 3.5rem 0;
+		}
+
+		@include breakpoint('<=xsmall') {
+			margin: 2rem 0;
+		}
+	}

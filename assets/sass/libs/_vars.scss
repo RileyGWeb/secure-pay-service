@@ -1,0 +1,65 @@
+// Misc.
+	$misc: (
+		z-index-base:		10000
+	);
+
+// Duration.
+	$duration: (
+		menu:				0.5s,
+		transition:			0.2s,
+		banner:				0.875s
+	);
+
+// Size.
+	$size: (
+		border-radius:		0.325rem,
+		element-height:		2.75rem,
+		element-margin:		2rem
+	);
+
+// Font.
+	$font: (
+		family:				('Poppins', Helvetica, sans-serif),
+		family-fixed:		('Courier New', monospace),
+		weight:				300,
+		weight-bold:		500,
+		weight-extrabold:	800
+	);
+
+// Palette.
+	$palette: (
+		bg:					#ffffff,
+		bg-alt:				#f2f5fa,
+		bg-shadow:			rgba(desaturate(darken(#00296B, 25), 15), 0.325),
+		fg:					#00509D,
+		fg-bold:			#00296B,
+		fg-light:			#1E91D0, 
+		border:				#dde1eb,
+		border-bg:			rgba(#dde1eb,0.175),
+		border-bg-alt:		rgba(#dde1eb,0.275),
+		accent1:			#F37520,
+		accent2:			#F5841F,
+		accent3:			#F7941D,
+		accent4:			#FAA819,
+		accent5:			#65c1d8,
+		highlight:			#1A76BC,
+
+		invert: (
+			bg:				darken(desaturate(mix(mix(#a2cedc, #aa8fff, 50%), #65c1d8, 50%), 15), 8),
+			bg-alt:			#917aa9,
+			bg-shadow:		rgba(desaturate(darken(#7a7d86, 25), 15), 0.325),
+			fg:				#ffffff,
+			fg-bold:		#ffffff,
+			fg-light:		rgba(255,255,255,0.75),
+			border:			rgba(255,255,255,0.35),
+			border-bg:		rgba(255,255,255,0.075),
+			border-bg-alt:	rgba(255,255,255,0.175),
+			accent1:		lighten(#a2cedc, 10),
+			accent2:		lighten(#93b5dc, 10),
+			accent3:		lighten(#a3a9e7, 10),
+			accent4:		lighten(#aa8fff, 10),
+			accent5:		lighten(#65c1d8, 10),
+			highlight:		#ffffff
+		),
+
+	);
