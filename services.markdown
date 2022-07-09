@@ -5,7 +5,7 @@
 layout: generic
 title: Title
 subtitle: Subtitle
-imageURL: images/stock.jpg
+imageURL: images/stock.webp
 imageAltText: Blog Image
 ---
 
