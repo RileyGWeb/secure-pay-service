@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>{{ content }}</title>
+		<title>Secure Pay Service</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -10,40 +10,7 @@
 	<body class="is-preload">
 
 		<!-- Header -->
-			<header id="header">
-
-				<!-- Logo -->
-					<div class="logo">
-						<a href="index.html"><strong>Vortex</strong> Theme</a>
-					</div>
-
-				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li class="current"><a href="index.html">Home</a></li>
-							<li>
-								<a href="#" class="icon solid fa-angle-down">Dropdown</a>
-								<ul>
-									<li><a href="#">Option One</a></li>
-									<li><a href="#">Option Two</a></li>
-									<li><a href="#">Option Three</a></li>
-									<li>
-										<a href="#">Submenu</a>
-										<ul>
-											<li><a href="#">Option One</a></li>
-											<li><a href="#">Option Two</a></li>
-											<li><a href="#">Option Three</a></li>
-											<li><a href="#">Option Four</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="generic.html">Generic</a></li>
-							<li><a href="elements.html">Elements</a></li>
-						</ul>
-					</nav>
-
-			</header>
+		{% include header.html %}
 
 		<!-- Wrapper -->
 			<div id="wrapper" style="padding-top:0;">
@@ -76,43 +43,13 @@
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu lacus imperdiet, cursus erat vitae, dictum nulla. Mauris et euismod sed nunc. Proin vel rhoncus mauris. Quisque mattis dictum etiam.</p>
 						</header>
 						<div class="image filtered" data-position="center">
-							<img src="images/pic10.jpg" alt="" />
+							<img src="images/stock.jpg" alt="" />
 						</div>
-						<div class="features">
-							<section>
-								<span class="icon solid fa-camera-retro major accent2"></span>
-								<h3>Etiam</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu lacus imperdiet, cursus erat vitae, dictum nulla.</p>
-							</section>
-							<section>
-								<span class="icon fa-gem major accent3"></span>
-								<h3>Aptent</h3>
-								<p>Ut ultrices hendrerit dignissim euismod. Fusce a sem interdum, elementum quam vitae, hendrerit lorem eget.</p>
-							</section>
-							<section>
-								<span class="icon fa-chart-bar major accent4"></span>
-								<h3>Magna</h3>
-								<p>Donec hendrerit, orci nec eleifend auctor, ipsum pharetra leo, eu imperdiet mauris sem id tellus. In at ex efficitur.</p>
-							</section>
-							<section>
-								<span class="icon solid fa-rss major accent1"></span>
-								<h3>Tempus</h3>
-								<p>Faucibus ligula, ac blandit purus arcu non sed nibh. Nam aliquam in erat a ultricies. Vivamus leo est lorem finibus.</p>
-							</section>
-							<section>
-								<span class="icon fa-comment-dots major accent2"></span>
-								<h3>Aliquam</h3>
-								<p>Fermentum integer laoreet sollicitudin tortor et consequat. Phasellus eu lectus. Sed libero quam vehicula eleifend.</p>
-							</section>
-							<section>
-								<span class="icon fa-copy major accent3"></span>
-								<h3>Euismod</h3>
-								<p>Quisque nec mollis turpis. Phasellus sit amet magna ut quam lacinia interdum. Phasellus varius lobortis dui. </p>
-							</section>
-						</div>
+						<h2 class="features-title">Our Services</h2>
+						{% include services-grid.html %}
 						<footer>
 							<ul class="actions special">
-								<li><a href="#" class="button next">Magna Imperdiet</a></li>
+								<li><a href="services" class="button next">See more</a></li>
 							</ul>
 						</footer>
 					</section>
@@ -120,9 +57,8 @@
 				<!-- Section -->
 					<section class="main style1">
 						<header class="small">
-							<h2>Lacinia egestas amet
-							tincidunt vitae venenatis</h2>
-							<p>Ac mollis metus. Nulla tristique urna sit amet sapien placerat euismod. Suspendisse eget viverra ex. Nunc vel justo lectus. Suspendisse potenti. Phasellus turpis augue, fringilla ut nisi vel placerat.</p>
+							<h2>Secure Pay Service Blog</h2>
+							<p>See our latest blog posts about financial news</p>
 						</header>
 						<div class="inner">
 							<div class="posts">
@@ -143,48 +79,6 @@
 								<article>
 									<a href="#" class="image filtered"><img src="images/pic03.jpg" alt="" /></a>
 									<p><strong>Feugiat tempus</strong> adipiscing sed quisque mattis rhoncus proin, vel mauris dictum nullam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button small next">Details</a></li>
-									</ul>
-								</article>
-								<article>
-									<a href="#" class="image filtered"><img src="images/pic04.jpg" alt="" /></a>
-									<p><strong>Enim interdum</strong> dignissim sed orci felis, cursus vitae ipsum. Pulvinar ipsum ex fringilla lorem.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button small next">Details</a></li>
-									</ul>
-								</article>
-								<article>
-									<a href="#" class="image filtered"><img src="images/pic05.jpg" alt="" /></a>
-									<p><strong>Mollis euismod</strong> maximus amet faucibus integer, tristique et lacus lobortis ligula viverra lorem.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button small next">Details</a></li>
-									</ul>
-								</article>
-								<article>
-									<a href="#" class="image filtered"><img src="images/pic06.jpg" alt="" /></a>
-									<p><strong>Urna mattis</strong> tempor amet varius lectus, phasellus vel sem elit dignissim sagittis morbi adipiscing.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button small next">Details</a></li>
-									</ul>
-								</article>
-								<article>
-									<a href="#" class="image filtered"><img src="images/pic07.jpg" alt="" /></a>
-									<p><strong>Rhoncus aliquam</strong> dictum mauris et euismod sed, nunc proin lorem ipsum vitae erat imperdiet.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button small next">Details</a></li>
-									</ul>
-								</article>
-								<article>
-									<a href="#" class="image filtered"><img src="images/pic08.jpg" alt="" /></a>
-									<p><strong>Fuscue lacus</strong> imperdiet dictum, marus et euismod lorem ipsum dolor sit amet nulam adipiscing.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button small next">Details</a></li>
-									</ul>
-								</article>
-								<article>
-									<a href="#" class="image filtered"><img src="images/pic09.jpg" alt="" /></a>
-									<p><strong>Sed malesuada</strong> elit magna tempus dictum vitae erat, consectetur lorem ipsum nulla consequat.</p>
 									<ul class="actions special">
 										<li><a href="#" class="button small next">Details</a></li>
 									</ul>

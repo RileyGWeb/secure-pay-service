@@ -33,13 +33,11 @@
 		}
 
 		> .logo {
-			position: absolute;
-			top: 0;
-			left: 2rem;
-			text-transform: uppercase;
+			height: 100%;
 
-			strong {
-				font-weight: _font(weight-extrabold);
+			img {
+				height: 100%;
+				padding: 1rem 1rem 1rem 2rem;
 			}
 		}
 
@@ -63,6 +61,7 @@
 						padding: 0 0.75rem;
 						font-weight: _font(weight-bold);
 						overflow: hidden;
+						color: _palette(body-dark);
 
 						&.icon {
 							&:before {
@@ -97,7 +96,7 @@
 						}
 
 						> a {
-							color: _palette(highlight);
+							// color: _palette(highlight);
 						}
 					}
 
@@ -151,7 +150,7 @@
 					}
 
 					a {
-						color: _palette(fg);
+						color: _palette(body-dark);
 						padding: 0.5rem 1rem;
 						text-decoration: none !important;
 						border: 0;

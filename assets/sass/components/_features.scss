@@ -61,6 +61,15 @@
 				&:nth-child(-n + 2) {
 					border-top-width: 0;
 				}
+
+				&:last-child {
+					width: 100%;
+
+					p {
+						max-width: 400px;
+						margin: 0 auto;
+					}
+				}
 			}
 		}
 

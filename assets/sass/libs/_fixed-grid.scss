@@ -58,7 +58,7 @@
 			> * {
 				$cell-width: 100% / $columns;
 
-				padding: ($gutters * 0.5);
+				padding: ($gutters * 0.25);
 				width: $cell-width;
 			}
 

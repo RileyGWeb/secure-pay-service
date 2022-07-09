@@ -18,7 +18,7 @@
 	}
 
 	body {
-		color: _palette(fg);
+		color: _palette(body);
 	}
 
 	body, input, select, textarea {
@@ -29,6 +29,7 @@
 	}
 
 	a {
+		color: _palette(body);
 		@include vendor('transition', (
 			'color #{_duration(transition)} ease-in-out',
 			'border-color #{_duration(transition)} ease-in-out',
@@ -249,4 +250,4 @@
 		}
 	}
 
-	@include color-typography;
+	// @include color-typography;
