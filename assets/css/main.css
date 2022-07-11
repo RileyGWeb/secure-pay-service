@@ -2641,9 +2641,13 @@ body {
     display: block;
     height: inherit;
     line-height: inherit;
-    border-bottom: 0; }
+    border-bottom: 0;
+    background: none;
+    transition: all 0.3s; }
     #header a:hover {
-      color: #1A76BC; }
+      background-image: linear-gradient(90deg, #F37520, #FAA819);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
   #header > .logo {
     height: 100%; }
     #header > .logo img {
@@ -2671,7 +2675,7 @@ body {
             float: right;
             margin-left: 0.75rem;
             line-height: inherit;
-            color: #1E91D0; }
+            color: #272727; }
           #header > nav > ul > li > a.icon:hover:before {
             color: inherit; }
         #header > nav > ul > li > ul {
@@ -2685,8 +2689,6 @@ body {
           width: 100%;
           height: 3px;
           background-image: linear-gradient(90deg, #F37520, #FAA819); }
-        #header > nav > ul > li.active > a {
-          color: #1A76BC; }
     .dropotron {
       background-color: #ffffff;
       border-radius: 0.325rem;

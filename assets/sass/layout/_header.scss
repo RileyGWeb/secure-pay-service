@@ -26,9 +26,14 @@
 			height: inherit;
 			line-height: inherit;
 			border-bottom: 0;
+			background: none;
+			transition: all 0.3s;
 
 			&:hover {
-				color: _palette(highlight);
+				// color: _palette(highlight);
+				background-image: linear-gradient(90deg, #{_palette(accent1)}, #{_palette(accent4)});
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
 			}
 		}
 
@@ -68,7 +73,7 @@
 								float: right;
 								margin-left: 0.75rem;
 								line-height: inherit;
-								color: _palette(fg-light);
+								color: _palette(body-dark);
 							}
 
 							&:hover {
@@ -102,7 +107,7 @@
 
 					&.active {
 						> a {
-							color: _palette(highlight);
+							// color: _palette(highlight);
 						}
 					}
 				}
