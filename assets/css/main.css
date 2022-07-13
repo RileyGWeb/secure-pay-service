@@ -2094,38 +2094,41 @@ table.alt tbody tr td {
   .features > * {
     padding: 2rem;
     width: 33.3333333333%; }
-  .features > section {
+  .features > a {
     border-style: solid;
     border-left-width: 1px;
     border-top-width: 1px;
     border-block-end-width: 0;
-    border-inline-end-width: 0; }
-    .features > section > :last-child {
+    border-inline-end-width: 0;
+    transition: all 0.3s; }
+    .features > a > :last-child {
       margin-bottom: 0; }
-    .features > section:nth-child(3n - 2) {
+    .features > a:nth-child(3n - 2) {
       border-left-width: 0; }
-    .features > section:nth-child(-n + 3) {
+    .features > a:nth-child(-n + 3) {
       border-top-width: 0; }
-    .features > section h3 {
+    .features > a h3 {
       font-size: 1.25rem;
       margin: 0 0 0.65rem 0; }
+    .features > a:hover {
+      background-color: #eff4fa; }
   @media screen and (max-width: 980px) {
     .features > * {
       width: 50%; }
     .features > * {
       padding: 1.5rem;
       width: 50%; }
-    .features > section:nth-child(3n - 2) {
+    .features > a:nth-child(3n - 2) {
       border-left-width: 1px; }
-    .features > section:nth-child(-n + 3) {
+    .features > a:nth-child(-n + 3) {
       border-top-width: 1px; }
-    .features > section:nth-child(2n - 1) {
+    .features > a:nth-child(2n - 1) {
       border-left-width: 0; }
-    .features > section:nth-child(-n + 2) {
+    .features > a:nth-child(-n + 2) {
       border-top-width: 0; }
-    .features > section:last-child {
+    .features > a:last-child {
       width: 100%; }
-      .features > section:last-child p {
+      .features > a:last-child p {
         max-width: 400px;
         margin: 0 auto; } }
   @media screen and (max-width: 480px) {
@@ -2134,16 +2137,16 @@ table.alt tbody tr td {
     .features > * {
       padding: 1.5rem;
       width: 100%; }
-    .features > section:nth-child(2n - 1) {
+    .features > a:nth-child(2n - 1) {
       border-left-width: 1px; }
-    .features > section:nth-child(-n + 2) {
+    .features > a:nth-child(-n + 2) {
       border-top-width: 1px; }
-    .features > section:nth-child(n) {
+    .features > a:nth-child(n) {
       border-left-width: 0; }
-    .features > section:nth-child(-n + 1) {
+    .features > a:nth-child(-n + 1) {
       border-top-width: 0; } }
 
-.features > section {
+.features > a {
   border-color: #dde1eb; }
 
 /* Posts */
@@ -2576,7 +2579,7 @@ table.alt tbody tr td {
       border-top-color: rgba(255, 255, 255, 0.35); }
     .main.style2 table.alt tbody tr td {
       border-color: rgba(255, 255, 255, 0.35); }
-    .main.style2 .features > section {
+    .main.style2 .features > a {
       border-color: rgba(255, 255, 255, 0.35); }
     .main.style2 > *:before {
       background: rgba(255, 255, 255, 0.35); }

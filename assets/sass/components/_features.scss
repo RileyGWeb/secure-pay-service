@@ -12,12 +12,13 @@
 			flush:				false
 		));
 
-		> section {
+		> a {
 			border-style: solid;
 			border-left-width: 1px;
 			border-top-width: 1px;
 			border-block-end-width: 0;
 			border-inline-end-width: 0;
+			transition: all 0.3s;
 
 			> :last-child {
 				margin-bottom: 0;
@@ -35,6 +36,10 @@
 				font-size: 1.25rem;
 				margin: 0 0 (_size(element-margin) * 0.325) 0;
 			}
+
+			&:hover {
+				background-color: lighten(desaturate(_palette(fg), 50), 65);
+			}
 		}
 
 		@include breakpoint('<=medium') {
@@ -45,7 +50,7 @@
 				prev-columns:	3
 			));
 
-			> section {
+			> a {
 				&:nth-child(3n - 2) {
 					border-left-width: 1px;
 				}
@@ -81,7 +86,7 @@
 				prev-columns:	(3, 2)
 			));
 
-			> section {
+			> a {
 				&:nth-child(2n - 1) {
 					border-left-width: 1px;
 				}
@@ -103,7 +108,7 @@
 
 	@mixin color-features($p: null) {
 		.features {
-			> section {
+			> a {
 				border-color: _palette($p, border);
 			}
 		}
