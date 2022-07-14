@@ -33,3 +33,21 @@
 			}
 		}
 	}
+
+	.about-content {
+		.icon-row {
+			display: flex;
+			justify-content: space-around;
+
+			.icon {
+				max-height: 128px;
+				max-width: 128px;
+				display: flex;
+				flex-direction: column;
+
+				img {
+					height: 100%;
+				}
+			}
+		}
+	}

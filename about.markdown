@@ -2,7 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: generic
+layout: about
 title: About us
 subtitle: We are a Credit Card and ATM Processing Company located in Miami, Florida. We help our clients get business done.
 imageURL: images/pic10.jpg

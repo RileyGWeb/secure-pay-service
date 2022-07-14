@@ -6,6 +6,10 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+		<style>.eapps-widget > div > div > a {
+			display:none!important;
+		}</style>
 	</head>
 	<body class="is-preload">
 
@@ -21,11 +25,47 @@
 							<h1>{{ page.title }}</h1>
 							<p>{{ page.subtitle }}</p>
 						</header>
-						<div class="image filtered" data-position="center">
+						<div class="image filtered" data-position="center" style="height: unset;">
 							<img src="{{ page.imageURL }}" alt="{{ page.imageAltText }}" />
+							<div class="content">
+								<div class="founder" style="background-image:url(../images/pic01.jpg);" alt=""></div>
+								<p>Secure Pay Service was founded in 2019 by Freddie Castro Jr. with 20 years experience in the merchant & ATM industry.<br> <br> We strive to create a more intimate and personal venue in Merchant Services along with ATM Processing.</p>
+							</div>
 						</div>
+						<div class="inner no-border about-content">
+							<div class="image-content-right">
+								<div>
+									<h3>Who are we?</h3>
+									<p>Secure Pay Services is a merchant and ATM provider. Delivering premium service, Secure Pay Services understands that business is personal. Priding itself on the ability to provide tailor-made payment processing solutions for even the most unique merchant accounts.</p>
+								</div>
+								<img src="../images/Big Logo Shield NEW.webp" alt="">
+							</div>
+
+							<hr>
+
+							<h3>What do we do?</h3>
+							<div class="icon-row">
+								<div class="icon">
+									<img src="../images/atm-icon.svg" alt="">
+								</div>
+								<div class="icon">
+									<img src="../images/atm-icon.svg" alt="">
+								</div>
+								<div class="icon">
+									<img src="../images/atm-icon.svg" alt="">
+								</div>
+							</div>
+
+							<hr>
+							<h3>Who do we serve?</h3>
+							<hr>
+						</div>
+					</section>
+
+					<section class="main style1">
 						<div class="inner">
-							{{ content }}
+							<h3 style="margin:0;text-align:center;">What our customers say</h3>
+							<div class="elfsight-app-99f2a88f-7abc-4f9c-9a50-8afef7f5d966"></div>
 						</div>
 					</section>
 

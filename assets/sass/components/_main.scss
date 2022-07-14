@@ -22,6 +22,31 @@
 				height: 1px;
 				background: _palette(border);
 			}
+			
+			&.no-border:before {
+				height: 0px;
+			}
+
+			&.about-content {
+				p {
+					font-size: 125%;
+				}
+				.image-content-right {
+					display: flex;
+					justify-content: left;
+
+					p {
+						max-width: 550px;
+						margin-right: 1.75rem;
+					}
+
+					img {
+						height: 250px;
+						width: 250px;
+						margin: 0 auto;
+					}
+				}
+			}
 
 			&.small {
 				width: 48rem;
@@ -102,6 +127,9 @@
 		}
 
 		&.style1 {
+			div[class*="WidgetTitle__Header"] {
+				display: none;
+			}
 		}
 
 		&.style2 {
@@ -150,6 +178,20 @@
 
 			> .image {
 				height: 22.5rem;
+			}
+
+			.about-content {
+				.image-content-right {
+					flex-direction: column;
+
+					p {
+						margin-right: 0;
+					}
+
+					img {
+						margin: 1rem auto;
+					}
+				}
 			}
 		}
 
