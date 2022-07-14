@@ -2838,10 +2838,12 @@ body {
       display: block; } }
   @media screen and (max-width: 736px) {
     #header {
-      height: 44px;
-      line-height: 44px; }
+      height: 52px;
+      line-height: 52px; }
       #header > .logo {
         left: 1rem; }
+        #header > .logo img {
+          padding: 0.75rem 0.75rem 0.75rem 1.5rem; }
       #header > .navPanelToggle {
         padding: 0 1rem; } }
 

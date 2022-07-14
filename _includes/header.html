@@ -7,11 +7,11 @@
 
     <!-- Nav -->
         <nav id="nav">
-            <ul>
-                <li class="current"><a href="/">Home</a></li>
-                <li><a href="about">About</a></li>
-                
-                <li>
+            <ul id="root">
+                <li class="root-level"><a href="/">Home</a></li>
+                <li class="root-level"><a href="about">About</a></li>
+
+                <li class="root-level">
                     <a href="services" class="icon solid fa-angle-down">Services</a>
                     <ul>
                         <li><a href="payment-solutions">Payment Solutions</a></li>
@@ -31,11 +31,21 @@
                     </ul>
                 </li>
 
-                <li><a href="https://securepayservicestore.com/">Store</a></li>
-                <li><a href="careers">Careers</a></li>
-                <li><a href="contact-us">Contact Us</a></li>
-                <li><a href="https://www.accessmyiq.com/">Login</a></li>
+                <li class="root-level"><a href="https://securepayservicestore.com/">Store</a></li>
+                <li class="root-level"><a href="careers">Careers</a></li>
+                <li class="root-level"><a href="contact-us">Contact Us</a></li>
+                <li class="root-level"><a href="https://www.accessmyiq.com/">Login</a></li>
             </ul>
         </nav>
 
 </header>
+
+<script>
+    var rawPagePath = '{{ page.path }}';
+    var splitPath = rawPagePath.split('.');
+    var pagePath = splitPath[0];
+    if (pagePath == 'index') {pagePath = '/'}
+    var currentLink = 'a[href="' + pagePath + '"]'
+
+    document.querySelector(currentLink).closest('.root-level').classList.add('current')
+</script>
