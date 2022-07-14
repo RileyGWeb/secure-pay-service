@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "critical": "^4.0.1"
+  },
+  "scripts": {
+    "critical": "node assets/js/critical.js"
+  }
+}
