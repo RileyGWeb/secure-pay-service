@@ -14,6 +14,11 @@
 			&:before {
 				font-weight: 900;
 			}
+
+			&.submenu:before {
+				float: right;
+				margin-top: 6px;
+			}
 		}
 
 		&.brands {
