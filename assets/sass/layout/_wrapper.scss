@@ -7,6 +7,20 @@
 		margin: 0 auto;
 		padding: 6rem 0;
 
+		.contact-info {
+			display: flex;
+			justify-content: center;
+
+			p {
+				padding: 0 2rem;
+				border-right: 1px solid _palette(border);
+
+				&:first-child {
+					border-left: 1px solid _palette(border);
+				}
+			}
+		}
+
 		> * {
 			margin: 3.5rem 0 0 0;
 			box-shadow: 0 1rem 4rem 0.125rem _palette(bg-shadow);
@@ -26,6 +40,23 @@
 			max-width: calc(100% - 5rem);
 			padding: 2.5rem 0;
 
+			.contact-info {
+				p {
+					white-space: nowrap;
+					padding: 0px 1.1rem;
+
+					&:first-child {
+						border-left: none;
+						padding-left: 0rem;
+					}
+
+					&:last-child {
+						border-right: none;
+						padding-right: 0rem;
+					}
+				}
+			}
+
 			> * {
 				margin: 2.5rem 0 0 0;
 			}
@@ -34,6 +65,21 @@
 		@include breakpoint('<=small') {
 			max-width: calc(100% - 4rem);
 			padding: 2rem 0;
+
+			.contact-info {
+				flex-direction: column;
+
+				p {
+					padding: 2rem 1rem;
+					margin: 0;
+					border-right: none;
+					border-bottom: 1px solid _palette(border);
+
+					&:last-child {
+						border-bottom: none;
+					}
+				}
+			}
 
 			> * {
 				margin: 2rem 0 0 0;
