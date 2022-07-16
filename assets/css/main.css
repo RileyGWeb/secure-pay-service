@@ -1800,14 +1800,22 @@ ul.icons {
 
 .about-content .icon-row {
   display: flex;
-  justify-content: space-around; }
-  .about-content .icon-row .icon {
-    max-height: 128px;
-    max-width: 128px;
+  justify-content: space-around;
+  margin-bottom: 3rem; }
+  .about-content .icon-row .section {
     display: flex;
-    flex-direction: column; }
-    .about-content .icon-row .icon img {
-      height: 100%; }
+    flex-direction: column;
+    text-align: center;
+    align-items: center; }
+    .about-content .icon-row .section .icon {
+      max-height: 128px;
+      max-width: 128px;
+      display: flex;
+      flex-direction: column; }
+      .about-content .icon-row .section .icon img {
+        height: 100%; }
+    .about-content .icon-row .section h4 {
+      margin-top: 1rem; }
 
 /* Section/Article */
 section.special, article.special {

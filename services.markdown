@@ -2,9 +2,9 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: generic
-title: Title
-subtitle: Subtitle
+layout: services
+title: Secure Pay Services
+subtitle: If you are not processing, we are not working!
 imageURL: images/stock.webp
 imageAltText: Blog Image
 ---

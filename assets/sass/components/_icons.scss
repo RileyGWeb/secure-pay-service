@@ -38,15 +38,28 @@
 		.icon-row {
 			display: flex;
 			justify-content: space-around;
-
-			.icon {
-				max-height: 128px;
-				max-width: 128px;
+			margin-bottom: 3rem;
+			
+			.section {
 				display: flex;
 				flex-direction: column;
+				text-align: center;
+				align-items: center;
 
-				img {
-					height: 100%;
+				.icon {
+					
+					max-height: 128px;
+					max-width: 128px;
+					display: flex;
+					flex-direction: column;
+	
+					img {
+						height: 100%;
+					}
+				}
+
+				h4 {
+					margin-top: 1rem;
 				}
 			}
 		}
