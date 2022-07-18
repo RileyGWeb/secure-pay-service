@@ -8,7 +8,7 @@
 
 		@include color-button(invert);
 		@include color-typography(invert);
-		@include padding(6rem, 6rem);
+		@include padding(3.5rem, 6rem);
 		cursor: default;
 		position: relative;
 		text-align: center;
@@ -37,7 +37,7 @@
 			}
 
 			img {
-				max-height: 450px;
+				max-height: 550px;
 				position: relative;
 				bottom: -10px;
 			}
@@ -126,7 +126,7 @@
 			@include padding(5rem, 3rem);
 			.content {
 				img {
-					// max-height: 350px;
+					max-height: 450px;
 				}
 			}
 		}

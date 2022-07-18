@@ -1953,7 +1953,7 @@ table.alt tbody tr td {
 .banner {
   padding-bottom: 0 !important;
   color: #ffffff;
-  padding: 6rem 6rem 4rem 6rem ;
+  padding: 3.5rem 6rem 1.5rem 6rem ;
   cursor: default;
   position: relative;
   text-align: center; }
@@ -2062,7 +2062,7 @@ table.alt tbody tr td {
       max-width: 410px;
       margin: 0 auto 2em auto; }
     .banner .content img {
-      max-height: 450px;
+      max-height: 550px;
       position: relative;
       bottom: -10px; }
   .banner .image {
@@ -2144,7 +2144,9 @@ table.alt tbody tr td {
     opacity: 0; }
   @media screen and (max-width: 1280px) {
     .banner {
-      padding: 5rem 3rem 3rem 3rem ; } }
+      padding: 5rem 3rem 3rem 3rem ; }
+      .banner .content img {
+        max-height: 450px; } }
   @media screen and (max-width: 980px) {
     .banner {
       padding: 6rem 3rem 4rem 3rem ; }
@@ -2966,7 +2968,7 @@ body {
   width: 80rem;
   max-width: calc(100% - 7rem);
   margin: 0 auto;
-  padding: 6rem 0; }
+  padding: 0; }
   #wrapper .contact-info {
     display: flex;
     justify-content: center; }
