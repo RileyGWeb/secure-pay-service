@@ -151,6 +151,10 @@
 			}
 		}
 
+		div[class*="Main__Container"] > a {
+			display: none!important;
+		}		
+
 		@include breakpoint('<=large') {
 			> header {
 				@include padding(5rem, 3rem);

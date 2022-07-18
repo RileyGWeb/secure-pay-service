@@ -202,7 +202,6 @@
 			}
 		}
 	}
-
 	@include breakpoint('<=large') {
 		.image.filtered .content {
 			padding: 1.5rem 2.5rem;
@@ -221,6 +220,31 @@
 			p {
 				font-size: 1.25em;
 				line-height: 1.4em;
+			} 
+		}
+	}
+
+	@include breakpoint('<=medium') {
+		.image.filtered .content {
+
+			.founder {
+				border-radius: 175px;
+				height: 175px;
+				width: 175px;
+				flex-basis: 175px;
 			}
+
+			p {
+				font-size: 1em;
+				line-height: 1.65em;
+			}
+		}
+	}
+
+	
+
+	@include breakpoint('<=small') {
+		.image.filtered .content {
+			flex-direction: column;
 		}
 	}
