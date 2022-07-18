@@ -54,10 +54,11 @@
 						</footer>
 					</section>
 
+				<!-- Reviews -->
 					<section class="main style1">
 						<div class="inner">
 							<h3 style="margin:0;text-align:center;">What our customers say</h3>
-							<div class="elfsight-app-99f2a88f-7abc-4f9c-9a50-8afef7f5d966"></div>
+							<div id="widgetContainer"></div>
 						</div>
 					</section>
 
@@ -148,6 +149,24 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+			<script>
+				function inViewport(element){
+				const bb = element.getBoundingClientRect();
+				return !(bb.top > innerHeight || bb.bottom < 0);
+				}
+				
+				let widgetVisible = false;
+				const widgetContainer = document.querySelector('#widgetContainer');
+				
+				document.addEventListener('scroll', event => {
+				if (inViewport( widgetContainer ) && !widgetVisible){
+				widgetVisible = true;
+				const widget = document.createElement('div');
+				widget.className = "elfsight-app-99f2a88f-7abc-4f9c-9a50-8afef7f5d966";
+				widgetContainer.append(widget);
+				}
+				});
+			</script>
 
 	</body>
 </html>
