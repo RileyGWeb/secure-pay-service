@@ -75,5 +75,9 @@
 					resetForms: true,
 					side: 'right'
 				});
+	// Footer date.
+	var currentTime = new Date();
+	var currentYear = currentTime.getFullYear();
+	document.querySelector('.current-year-js').textContent = currentYear;
 
 })(jQuery);

@@ -4,6 +4,7 @@
 	.banner {
 		$duration: _duration(banner);
 		$delay: $duration * 1.25;
+		padding-bottom: 0!important;
 
 		@include color-button(invert);
 		@include color-typography(invert);
@@ -14,14 +15,20 @@
 
 		.content {
 			display: flex; 
+
 			& > * {
 				width:50%;
-				align-self: center;
 				padding: 0 2em;
 			}
 
-			&:last-child {
+			div:first-child {
+				align-self: center;
+			}
+
+			div:last-child {
 				display: flex;
+				align-self: end;
+				justify-content: center;
 			}
 
 			p {
@@ -31,6 +38,8 @@
 
 			img {
 				max-height: 450px;
+				position: relative;
+				bottom: -10px;
 			}
 		}
 
@@ -117,7 +126,7 @@
 			@include padding(5rem, 3rem);
 			.content {
 				img {
-					max-height: 350px;
+					// max-height: 350px;
 				}
 			}
 		}
