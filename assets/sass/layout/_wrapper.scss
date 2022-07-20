@@ -30,6 +30,11 @@
 
 		> :first-child {
 			margin-top: 0;
+			border-radius: 0 0 8px 8px;
+		}
+
+		.reviews {
+			padding-bottom: 2.5rem;
 		}
 
 		@include breakpoint('<=xlarge') {
