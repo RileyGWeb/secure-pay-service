@@ -106,7 +106,7 @@ html {
       font-size: 10pt; } }
 
 body {
-  color: #7a7d86; }
+  color: #1f232e; }
 
 body, input, select, textarea {
   font-family: "Poppins", Helvetica, sans-serif;
@@ -115,7 +115,7 @@ body, input, select, textarea {
   line-height: 1.65; }
 
 a {
-  color: #7a7d86;
+  color: #1f232e;
   -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
   -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
@@ -156,6 +156,8 @@ h1 {
   font-size: 3.25rem;
   line-height: 1.25;
   margin: 0 0 2rem 0; }
+  h1.splash {
+    font-size: 2.15rem; }
 
 h2 {
   font-size: 2.5rem;
@@ -1734,13 +1736,24 @@ ul {
         padding-top: 0; }
 
 dl {
-  margin: 0 0 2rem 0; }
+  margin: 0 0 3rem 44px; }
   dl dt {
     display: block;
-    font-weight: 500;
-    margin: 0 0 1rem 0; }
+    font-weight: 800;
+    font-size: 1.25rem;
+    position: relative; }
+    dl dt:before {
+      content: '';
+      background-image: url("../../../images/checked.svg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: absolute;
+      left: -44px;
+      top: 3px;
+      height: 30px;
+      width: 30px; }
   dl dd {
-    margin-left: 2rem; }
+    margin: 0 0 2rem 0; }
 
 ul.alt li {
   border-top-color: #dde1eb; }
@@ -2061,8 +2074,7 @@ table.alt tbody tr td {
       align-self: end;
       justify-content: center; }
     .banner .content p {
-      max-width: 410px;
-      margin: 0 auto 2em auto; }
+      max-width: 410px; }
     .banner .content img {
       max-height: 550px;
       position: relative;
@@ -3148,5 +3160,35 @@ body {
   -webkit-transform: scale(1.125);
   -ms-transform: scale(1.125);
   transform: scale(1.125); }
+
+.image-vertical-left {
+  display: flex;
+  margin-bottom: 2rem; }
+  .image-vertical-left > * {
+    max-width: 50%;
+    height: 100%; }
+  .image-vertical-left img {
+    border-radius: 24px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 2rem; }
+  .image-vertical-left .content {
+    padding-left: 2rem;
+    margin-left: 2rem; }
+
+@media screen and (max-width: 980px) {
+  .image-vertical-left {
+    flex-direction: column; }
+    .image-vertical-left > * {
+      max-width: 100%; }
+    .image-vertical-left img {
+      border-radius: 16px;
+      margin-right: 0rem;
+      margin-bottom: 2rem;
+      max-height: 340px; }
+    .image-vertical-left .content {
+      padding-left: 0rem;
+      margin-left: 0rem;
+      max-width: 550px; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -83,3 +83,48 @@
 			@include vendor('transform', 'scale(1.125)');
 		}
 	}
+
+	.image-vertical-left {
+		display: flex;
+		margin-bottom: 2rem;
+
+		& > * {
+			max-width: 50%;
+			height: 100%;
+		}
+
+		img {
+			border-radius: 24px;
+			height: auto;
+			object-fit: cover;
+			margin-right: 2rem;
+		}
+
+		.content {
+			padding-left: 2rem;
+			margin-left: 2rem;
+		}
+	}
+
+	@include breakpoint("<=medium") {
+		.image-vertical-left {
+			flex-direction: column;
+	
+			& > * {
+				max-width: 100%;
+			}
+	
+			img {
+				border-radius: 16px;
+				margin-right: 0rem;
+				margin-bottom: 2rem;
+				max-height: 340px;
+			}
+	
+			.content {
+				padding-left: 0rem;
+				margin-left: 0rem;
+				max-width: 550px;
+			}
+		}
+	}

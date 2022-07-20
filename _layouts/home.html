@@ -22,11 +22,12 @@
 							<img src="images/banner.jpg" alt="" />
 						</div>
 						<div class="content">
-							<div>
-								<h1>Secure Pay Service</h1>
-								<p>We are a credit card and ATM processing company located in Miami, Florida. Since our launch 20 years ago we have served thousands of clients with better credit card processing and fees, better equipment, and overall, better service. We are the leading merchant service and ATM solution in Miami as well as South Florida. </p>
-								<ul class="actions special">
-									<li><a href="#" class="button next">Get Started</a></li>
+							<div style="text-align: left;">
+								<h1 class="splash">Payment Processing<br>
+									@ Wholesale Pricing</h1>
+								<p>Stop getting ripped off by Square, Paypal, Stripe, etc. Unlock a banking relationship that will make your business thrive.</p>
+								<ul class="actions">
+									<li><a href="services" class="button next">Tell me more</a></li>
 								</ul>
 							</div>
 							<div>
@@ -70,27 +71,6 @@
 						</header>
 						<div class="inner">
 							<div class="posts">
-								<article>
-									<a href="#" class="image filtered"><img src="images/pic01.jpg" alt="" /></a>
-									<p><strong>Magna feugiat etiam</strong> ipsum dolor tempus amet, magna consectetur. Fusce eu lacus imperdiet.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button small next">Details</a></li>
-									</ul>
-								</article>
-								<article>
-									<a href="#" class="image filtered"><img src="images/pic02.jpg" alt="" /></a>
-									<p><strong>Lorem ipsum dolor</strong> tempus lacus imperdiet cursus sed nisl adipiscing sed dolor.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button small next">Details</a></li>
-									</ul>
-								</article>
-								<article>
-									<a href="#" class="image filtered"><img src="images/pic03.jpg" alt="" /></a>
-									<p><strong>Feugiat tempus</strong> adipiscing sed quisque mattis rhoncus proin, vel mauris dictum nullam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button small next">Details</a></li>
-									</ul>
-								</article>
 							</div>
 						</div>
 					</section>
@@ -166,6 +146,8 @@
 				widgetContainer.append(widget);
 				}
 				});
+				setTimeout(function(){ document.querySelector(".posts").innerHTML = '<article><a href="#" class="image filtered"><img src="images/pic01.jpg" alt=""/></a><p><strong>Magna feugiat etiam</strong> ipsum dolor tempus amet, magna consectetur. Fusce eu lacus imperdiet.</p><ul class="actions special"><li><a href="#" class="button small next">Details</a></li></ul></article><article><a href="#" class="image filtered"><img src="images/pic02.jpg" alt=""/></a><p><strong>Lorem ipsum dolor</strong> tempus lacus imperdiet cursus sed nisl adipiscing sed dolor.</p><ul class="actions special"><li><a href="#" class="button small next">Details</a></li></ul></article><article><a href="#" class="image filtered"><img src="images/pic03.jpg" alt=""/></a><p><strong>Feugiat tempus</strong> adipiscing sed quisque mattis rhoncus proin, vel mauris dictum nullam.</p><ul class="actions special"><li><a href="#" class="button small next">Details</a></li></ul></article>' }, 2000);
+
 			</script>
 
 	</body>
