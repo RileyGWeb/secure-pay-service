@@ -5,7 +5,7 @@
 layout: services
 title: Secure Pay Services
 subtitle: If you are not processing, we are not working!
-imageURL: images/stock.webp
+imageURL: images/income.webp
 imageAltText: Blog Image
 ---
 
