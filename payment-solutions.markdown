@@ -29,5 +29,6 @@ Our Credit Card Processing company has helped thousands of merchant’s process 
 * Payment gateway—Some processors have a direct connection to the authorization network. Others connect to a payment gateway to access the network.
 * Transactions—Making credit/debit/gift card transactions is the main purpose of a payment processor, so make sure yours has consistent up-time.
 * ACH transfers—Your payment processor is integral in the movement of funds from the cardholder’s account to your business’ bank account.
+{: .checked-list}
 
 {% include button.html link="https://www.google.com" text="Google" %}

@@ -106,6 +106,84 @@
 		}
 	}
 
+	.partners {
+		h2 {
+			text-align: center;
+		}
+
+		.logo-row {
+			justify-content: center;
+			padding-bottom: 2rem;
+	
+			img {
+				height: 50px;
+				margin: 0 1.5rem;
+			}
+		}
+	}
+
+	.atm-extra {
+	margin-bottom: 3rem;
+
+		.atm-grid {
+			display: flex;
+			flex-direction: column;
+			width: 700px;
+			margin: 0 auto;
+			position: relative;
+			border-radius: 16px;
+			overflow: hidden;
+
+			@include standard-gradient-overlay;
+
+			.row {
+				display: flex;
+				height: 50%;
+				z-index: 15;
+				margin: 0;
+				position: relative;
+
+				img {
+					height: 100px;
+					width: 100px;
+				}
+
+				& > div {
+					width: 50%;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					text-align: center;
+					padding: 3rem;
+
+					p {
+						margin-top: 1.25rem;
+						margin-bottom: 0;
+						color: #fff;
+					}
+				}
+
+				&.row-1 {
+					
+					& div:last-child {
+						border-left: 1px solid #{_palette(highlight)};
+					}
+				}
+
+				&.row-2 {
+					
+					& div:first-child {
+						border-top: 1px solid #{_palette(highlight)};
+					}
+					& div:last-child {
+						border-left: 1px solid #{_palette(highlight)};
+						border-top: 1px solid #{_palette(highlight)};
+					}
+				}
+			}
+		}
+	}
+
 	@include breakpoint("<=medium") {
 		.image-vertical-left {
 			flex-direction: column;
@@ -127,4 +205,96 @@
 				max-width: 550px;
 			}
 		}
+		.partners {
+	
+			.logo-row {
+
+				img {
+					height: 40px;
+				}
+			}
+		}
+
+		.atm-extra {
+
+			.atm-grid {
+				width: 100%;
+
+				.row {	
+					& > div {
+						padding: 1.75rem;
+
+					}
+				}
+			}
+		}
 	}
+
+	@include breakpoint("<=small") {
+
+
+		.partners {
+	
+			.logo-row {
+				flex-direction: column;
+
+				img {
+					margin: 1.5rem;
+				}
+			}
+		}
+
+		.atm-extra {
+
+			.atm-grid {
+	
+				.row {
+					flex-direction: column;
+	
+					img {
+						height: 100px;
+						width: 100px;
+					}
+	
+					& > div {
+						width: 100%;
+						
+						p {
+							max-width: 350px;
+							margin-left: auto;
+							margin-right: auto;
+						}
+					}
+	
+					&.row-1 {
+
+						& div {
+							border-bottom: 1px solid #{_palette(highlight)};
+						}
+						
+						& div:last-child {
+							border-left: none;
+						}
+					}
+	
+					&.row-2 {
+
+
+						& div {
+							border-bottom: 1px solid #{_palette(highlight)};
+						}
+						
+						& div:first-child {
+							border-top: none;
+						}
+						& div:last-child {
+							border: none;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.flex{display:flex;}
+	.flex-col{flex-direction:column;}

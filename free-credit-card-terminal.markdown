@@ -2,23 +2,29 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: generic
-title: Title
-subtitle: Subtitle
+layout: service
+title: Free Credit Card Terminal
+subtitle: Free & Discounted Credit Card Terminals for Qualified Merchants
 imageURL: images/pic10.jpg
 imageAltText: Blog Image
 ---
 
-## MAGNA FEUGIAT TEMPUS
+## Free Credit Card Terminal
 
-Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.
+### Would you like to accept credit cards from customers, but don’t know where to start?
 
----
+Secure Pay Service is now offering Free Credit Card Terminal Placement, Wireless Credit Card Machines and Smartphone Credit Card Processing Devices to qualified merchants. Furthermore, our FREE Payment Gateway offer is available to most new customers regardless of their monthly sales volume.
 
-### LOREM IPSUM DOLOR AMET
+All credit card terminals are EMV ready and some models include a terminal replacement warranty.
 
-Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.
+Switch to us and receive a FREE EMV credit card terminal with your new merchant account activation today. Why buy, lease or rent credit card terminal for thousands of dollars when you can get a Credit Card Terminal for free. When you sign up for a small business merchant account or switch to us , we will get you setup to process credit cards at lowest rates with a free credit card machine. We are the leading credit card processing company helping all businesses of all sizes and industries save money.
 
-Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet blandit adipiscing arcu ante.
+Whether you have a retail store, restaurant, home based business, professional services business or any other type of business, we can help you cut costs for merchant processing and point of sale systems. We guarantee to offer the lowest rates for credit card payment processing in U.S.A.
 
-{% include button.html link="https://www.google.com" text="Google" %}
+*Credit Card Terminal free ( On approved Credit) with 1-3 year loaner agreement. (Additional terms and restrictions may apply). Other applicable fees may include offline debit transaction fees, dues, and assessments and restrictions. Shipping and handling fees are not included. Non-return fees will be charged if the Loaner terminal(s) is not returned at the end of the contract term.
+
+Receive your FREE credit card machine when you sign up for a merchant account!
+
+#### Contact us for a “Free Credit Card Terminal Placement” at your business. And start taking credit card payments.
+
+{% include button.html link="contact-us" text="Request Merchant Services" %}

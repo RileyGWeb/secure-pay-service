@@ -2,23 +2,48 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: generic
-title: Title
-subtitle: Subtitle
+layout: service
+title: Virtual Terminal Online POS Service
+subtitle: Virtual Payments at Enterprise scale.
 imageURL: images/pic10.jpg
-imageAltText: Blog Image
+imageAltText: Virtual Payments
 ---
 
-## MAGNA FEUGIAT TEMPUS
+## Friction-free payments, on demand
 
-Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.
+Frictionless enterprise payments require an on-demand attitude. That means any payment— anyway. It also means anywhere—whether you’re accepting payments in-store, online, across channels or through enterprise resource planning systems for any B2B or B2C customer. They also should help you maximize acceptance and revenue, every step of the way. That includes all kinds of payments, including alternatives, across systems and borders.
 
 ---
 
-### LOREM IPSUM DOLOR AMET
+### Accept payments, virtually everywhere
 
-Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.
+Smarter, faster, easier payments are on-the-go. Wherever you are, wherever you go, Virtual Terminal Plus is the easy to use terminal alternative to safely accept any card type payment wherever you have an internet connection. Don’t lose another payment because you’re away from your business.
 
-Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet blandit adipiscing arcu ante.
+### Virtual Terminal Plus
 
-{% include button.html link="https://www.google.com" text="Google" %}
+Get a virtual terminal and accept any payment, anywhere—even recurring payments, safely.
+
+#### Virtual Terminal Plus is:
+
+* Efficient—consolidated statements let you see all merchant services fees at a single glance.
+* Multi-user friendly—manage and support multiple users and locations.
+* Convenient—accessible anywhere via popular web browsers.
+* Simple—with an easy-to-use web interface.
+* More secure—payment data is stored on our PCI compliant server platform. An encrypted device can be added, purchased, for an additional layer of security.
+* More secure—payment data is stored on our PCI compliant server platform. An encrypted device can be added, purchased, for an additional layer of security.
+{: .checked-list}
+
+#### With Virtual Terminal Plus, you can:
+
+* Easily generate refunds and reversals.
+* Manage recurring payments and schedules.
+* Administer and authenticate multiple users, based on roles and permissions you define.
+* Create recurring payment schedules.
+* Customize user fields to capture additional customer transaction details with each payment transaction.
+* Conduct simple customer searches for historical transaction.
+* Automatically generate end-of-day batch settlement.
+* Protect card data per PCI DSS requirements and support Level 2 and Level 3 payments for B2B and commercial customers.
+* All wrapped up with comprehensive reporting too. It’s time not to miss another payment, ever again.
+{: .checked-list}
+
+{% include button.html link="contact-us" text="Request Merchant Services" %}

@@ -91,7 +91,7 @@
 				margin: 0 auto;
 				display: flex;
 				@include padding(6rem, 6rem);
-				justify-content: space-around;
+				justify-content: space-between;
 
 				& > div {
 					margin: 0rem;
@@ -100,7 +100,7 @@
 				& > div.title {
 					width: 100%;
 					max-width: 500px;
-					padding: 0 2rem 2rem 2rem;
+					padding: 0 0rem 2rem 0rem;
 				}
 
 				& > div.image {
@@ -400,7 +400,7 @@
 	}
 
 	.service-page {
-		ul {
+		ul.checked-list {
 			max-width: 550px;
 			list-style: none;
 			padding-left: 2.5rem;
@@ -416,7 +416,7 @@
 					background-repeat: no-repeat;
 					position: absolute;
 					left: -44px;
-					top: 3px;
+					top: -3px;
 					height: 30px;
 					width: 30px;
 				}

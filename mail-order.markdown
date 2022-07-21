@@ -2,23 +2,39 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: generic
-title: Title
-subtitle: Subtitle
+layout: service
+title: Mail Order / Telephone Order Service
+subtitle: Making Telephone Transactions Easy For Merchants 
 imageURL: images/pic10.jpg
-imageAltText: Blog Image
+imageAltText: Mail Order and Telephone Order Service
 ---
 
-## MAGNA FEUGIAT TEMPUS
-
-Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.
+## Mail Order / Telephone Order
 
 ---
 
-### LOREM IPSUM DOLOR AMET
+### MOTO Processing Service
 
-Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.
+MOTO stands for mail or telephone order credit card processing. MOTO credit card processing is very similar to an online credit card processing because the credit card is NOT present during the time of the sale. MOTO Payment Processing is great for merchants who will need to process most sales transactions on the phone or receive al; l the credit card data via mail order. These types of Merchant Accounts are often known in the industry as Credit Card Not Present Merchant Accounts.
 
-Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet blandit adipiscing arcu ante.
+---
 
-{% include button.html link="https://www.google.com" text="Google" %}
+### MOTO Merchant Account
+
+We are the best MOTO merchant account company when it comes to savings and security of your Telephone Order Payment Processing needs ? Stop overpaying other merchant service companies who charge you hidden fees. Switch to Secure Pay Service today and get the lowest payment processing rates and quality customer service available for your business.
+
+MOTO Payment Processing Solutions for Any Business
+
+All MOTO merchant accounts include the following features:
+* Secure Credit Card Payment Gateway to protect card data
+* 24 Hour MOTO merchant service support
+* Advanced fraud monitoring
+* Secure and high-speed credit card processing
+* ACH processing services
+* Easy Payment Processing Interface / management Interface
+* High Security with our PCI-compliant MOTO payment processing solutions
+{: .checked-list}
+
+Contact the leading Merchant Account Service Providers and benefit from our extensive selection of small business merchant processing services, credit card terminals and best payment processing systems online. We offer the lowest rates for Phone and Mail Order Credit Card Processing…Guaranteed !
+
+{% include button.html link="contact-us" text="Request Merchant Services" %}

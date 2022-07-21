@@ -2,23 +2,36 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: generic
-title: Title
-subtitle: Subtitle
+layout: service
+title: ATM Placements
+subtitle: Turnkey Solutions for ATM Placement Programs for all types of  Retail Locations
 imageURL: images/pic10.jpg
 imageAltText: Blog Image
 ---
 
-## MAGNA FEUGIAT TEMPUS
+## Free ATM Placements Program
 
-Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.
+Free ATM placement is for high traffic locations looking for a turnkey solution. Secure Pay Service will carry out the details required to maintain a reliable and profitable ATM machine. With free ATM placement, the establishment does not pay for the ATM machine, delivery fee, installation cost, or repair and maintenance services. We will load the cash in your ATM and monitor it remotely to ensure there is always plenty of cash available for your customers. the location will need to provide ATM signage ($50.00) and we will provide paper supplies. There is no cost to you. The establishment in turn receives a comisssion on each surcharged withdrawal.
 
 ---
 
-### LOREM IPSUM DOLOR AMET
+### Locations that usually qualify for free ATM placement are:
+* Malls and Shopping Centers
+* Gas stations and Truck Stops
+* Bars and Nightclubs
+* Grocery stores
+* Hotels/Motels
+* Bowling Alleys
+* Casinos And Bingo Halls
+* Amusement Parks
+* Colleges And Universities
+* Convention Centers
+* Hospitals
+* Any Location With Heavy Foot Traffic
+{: .checked-list}
 
-Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.
+Location shall have at least 250 transactions per month with foot traffic of 100 customers per day.
 
-Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet blandit adipiscing arcu ante.
+Registered Agent of Citizens Bank, N.A., Providence RI.
 
-{% include button.html link="https://www.google.com" text="Google" %}
+{% include button.html link="contact-us" text="Request Free ATM Services" %}
