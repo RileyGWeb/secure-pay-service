@@ -2517,6 +2517,21 @@ table.alt tbody tr td {
         height: 3px;
         margin-left: -10rem;
         background-image: linear-gradient(90deg, #F37520, #FAA819); }
+    .main > header.full {
+      text-align: center;
+      margin: 0 auto;
+      display: flex;
+      padding: 6rem 6rem 4rem 6rem ;
+      justify-content: space-around; }
+      .main > header.full > div {
+        margin: 0rem; }
+      .main > header.full > div.title {
+        width: 100%;
+        max-width: 500px;
+        padding: 0 2rem 2rem 2rem; }
+      .main > header.full > div.image {
+        width: 50%;
+        border-radius: 24px; }
   .main > .image {
     display: block;
     position: relative;
@@ -2744,8 +2759,8 @@ table.alt tbody tr td {
   .main div[class*="Main__Container"] > a {
     display: none !important; }
   @media screen and (max-width: 1280px) {
-    .main > header {
-      padding: 5rem 3rem 3rem 3rem ; }
+    .main > header.full {
+      padding: 4rem 3rem 3rem 3rem; }
     .main > .image {
       height: 25rem; }
     .main > .inner {
@@ -2766,6 +2781,23 @@ table.alt tbody tr td {
   @media screen and (max-width: 980px) {
     .main > *.small {
       width: 42rem; }
+    .main > header {
+      padding: 5rem 3rem 3rem 3rem ; }
+      .main > header.full {
+        flex-direction: column;
+        padding: 7rem 4rem 5rem 4rem ;
+        align-items: center; }
+        .main > header.full > div {
+          margin: 0rem; }
+        .main > header.full > div.title {
+          width: 100%;
+          max-width: 700px; }
+        .main > header.full > div.image {
+          width: 100%;
+          max-width: 650px;
+          height: 22.5rem;
+          border-radius: 16px;
+          margin-top: 4rem; }
     .main > .image {
       height: 22.5rem; }
     .main .about-content .image-content-right {
@@ -2789,6 +2821,14 @@ table.alt tbody tr td {
         .main > header > :first-child:after {
           width: 10rem;
           margin-left: -5rem; }
+      .main > header.full {
+        padding: 4rem 2rem 2rem 2rem ; }
+        .main > header.full > div.title {
+          padding: 0; }
+        .main > header.full > div.image {
+          width: 100%;
+          height: 20rem;
+          margin-top: 3rem; }
     .main > .image {
       height: 15rem; }
     .main > .inner {
@@ -2810,6 +2850,24 @@ table.alt tbody tr td {
       .main.style3 .inner:first-child ul, .main.style3 .inner:first-child h4 {
         text-align: left;
         padding: 0; } }
+
+.service-page ul {
+  max-width: 550px;
+  list-style: none;
+  padding-left: 2.5rem; }
+  .service-page ul li {
+    margin-bottom: 1rem;
+    position: relative; }
+    .service-page ul li:before {
+      content: '';
+      background-image: url("../../../images/checked.svg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: absolute;
+      left: -44px;
+      top: 3px;
+      height: 30px;
+      width: 30px; }
 
 /* Header */
 body {
