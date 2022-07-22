@@ -122,8 +122,21 @@
 		}
 	}
 
+	.career {
+
+		& > * {
+			margin: 0 2rem;
+		}
+
+		form {    
+			max-width: 400px;
+			padding: 0 4rem;
+			margin-top: 3rem;
+		}
+	}
+
 	.atm-extra {
-	margin-bottom: 3rem;
+		margin-bottom: 3rem;
 
 		.atm-grid {
 			display: flex;
@@ -241,6 +254,14 @@
 				img {
 					margin: 1.5rem;
 				}
+			}
+		}
+
+		.career {
+			
+	
+			form {    
+				padding: 0;
 			}
 		}
 

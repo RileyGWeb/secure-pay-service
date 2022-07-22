@@ -15,12 +15,31 @@
 
 				<!-- Section -->
 					<section class="main style1">
-						<header class="full">
+						<header class="full career">
 							<div class="title">
 								<h1>{{ page.title }}</h1>
 								<p>{{ page.subtitle }}</p>
 							</div>
-							<div class="image" style="background-image: url({{ page.imageURL }})" alt="{{ page.imageAltText }}"></div>
+							<form netlify method="post" action="#">
+								<h4>Join today</h4>
+								<p>Fill out this form and a member of our team will be in touch!</p>
+								<div class="row gtr-uniform">
+									<div class="col-12">
+										<input type="text" name="name" id="name" value="" placeholder="Name" />
+									</div>
+									<div class="col-12">
+										<input type="email" name="email" id="email" value="" placeholder="Email" />
+									</div>
+									<div class="col-12">
+										<input type="text" name="phone" id="phone" value="" placeholder="Phone" />
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Submit" class="primary" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
 						</header>
 					</section>
 

@@ -1435,16 +1435,16 @@ input[type="radio"]:focus + label:before {
   box-shadow: 0 0 0 1px #1A76BC; }
 
 ::-webkit-input-placeholder {
-  color: #1E91D0 !important; }
+  color: #272727 !important; }
 
 :-moz-placeholder {
-  color: #1E91D0 !important; }
+  color: #272727 !important; }
 
 ::-moz-placeholder {
-  color: #1E91D0 !important; }
+  color: #272727 !important; }
 
 :-ms-input-placeholder {
-  color: #1E91D0 !important; }
+  color: #272727 !important; }
 
 /* Icon */
 .icon {
@@ -2681,13 +2681,13 @@ table.alt tbody tr td {
       border-color: #ffffff;
       box-shadow: 0 0 0 1px #ffffff; }
     .main.style2 ::-webkit-input-placeholder {
-      color: rgba(255, 255, 255, 0.75) !important; }
+      color: !important; }
     .main.style2 :-moz-placeholder {
-      color: rgba(255, 255, 255, 0.75) !important; }
+      color: !important; }
     .main.style2 ::-moz-placeholder {
-      color: rgba(255, 255, 255, 0.75) !important; }
+      color: !important; }
     .main.style2 :-ms-input-placeholder {
-      color: rgba(255, 255, 255, 0.75) !important; }
+      color: !important; }
     .main.style2 .icon.accent1 {
       color: #c7e2ea; }
     .main.style2 .icon.accent2 {
@@ -3239,6 +3239,13 @@ body {
     height: 50px;
     margin: 0 1.5rem; }
 
+.career > * {
+  margin: 0 2rem; }
+.career form {
+  max-width: 400px;
+  padding: 0 4rem;
+  margin-top: 3rem; }
+
 .atm-extra {
   margin-bottom: 3rem; }
   .atm-extra .atm-grid {
@@ -3328,6 +3335,9 @@ body {
     flex-direction: column; }
     .partners .logo-row img {
       margin: 1.5rem; }
+
+  .career form {
+    padding: 0; }
 
   .atm-extra .atm-grid .row {
     flex-direction: column; }

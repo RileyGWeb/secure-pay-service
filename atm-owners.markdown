@@ -20,6 +20,7 @@ Buying an ATM machine from Secure Pay Service has its advantages. We help you th
 * Our service technicians are available 24/7 any troubleshooting.
 * 1 Year full Manufacturer warranty.
 * Real time online web based ATM PortalWe provide ATM service across Florida, we house technical personnel and contract factory certified technicians across the Tri County and Nation Wide area’s to service ATM maintenance issues and sales. We are continued to provide the highest level of customer service in the ATM industry. Secure Pay Service can give you the industry’s excellent service for your new ATM.
+{: .checked-list}
 
 A new ATM operator is designed around the main factors that are needed to Operate a highly profitable ATM at your location. When working within our ATM operator sales, you will have the following ATM operator tools ATM Pricing – for sales beating all competitors rates Quick Application Processing Shipment Tracking Nation Wide Complete Installation & Verification Nation Wide ATM real time Access.
 

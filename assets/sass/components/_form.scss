@@ -251,19 +251,19 @@
 		}
 
 		::-webkit-input-placeholder {
-			color: _palette($p, fg-light) !important;
+			color: _palette($p, body-dark) !important;
 		}
 
 		:-moz-placeholder {
-			color: _palette($p, fg-light) !important;
+			color: _palette($p, body-dark) !important;
 		}
 
 		::-moz-placeholder {
-			color: _palette($p, fg-light) !important;
+			color: _palette($p, body-dark) !important;
 		}
 
 		:-ms-input-placeholder {
-			color: _palette($p, fg-light) !important;
+			color: _palette($p, body-dark) !important;
 		}
 	}
 
