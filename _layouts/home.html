@@ -29,8 +29,8 @@
 									<li><a href="services" class="button next">Tell me more</a></li>
 								</ul>
 							</div>
-							<div>
-								<img src="../images/banner_chick.webp" alt="">
+							<div id="insert_banner_chick">
+								
 								
 							</div>
 						</div>
@@ -113,6 +113,7 @@
 				widgetContainer.append(widget);
 				}
 				});
+				setTimeout(function(){ document.getElementById("insert_banner_chick").innerHTML = '<img src="../images/banner_chick.webp" alt="">' }, 1);
 				setTimeout(function(){ document.querySelector(".posts").innerHTML = '{% include posts.html %}' }, 2000);
 
 			</script>
