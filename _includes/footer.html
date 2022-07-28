@@ -1,6 +1,6 @@
 <footer id="footer" class="main style3" style="border-radius: 8px 8px 0 0;">
     <div class="inner">
-        <div class="first logo">
+        <div id="insert_logo" class="first logo">
             <img src="/images/footer-logo.webp" alt="Secure Pay Service Logo">
         </div>
         <div class="second">
@@ -33,4 +33,8 @@
         Copyright &copy; <span class="current-year-js"></span> Secure Pay Services. All rights reserved.<br>
         <div style="height:0;overflow:hidden;">Designed and developed by <a href="https://www.speedy-sites.com">Speedy Sites, LLC</a></div>
     </div>
+
+    <script>
+        setTimeout(function(){ document.getElementById("insert_logo").innerHTML = '<img src="/images/footer-logo.webp" alt="Secure Pay Service Logo">' }, 1000);
+    </script>
 </footer>
