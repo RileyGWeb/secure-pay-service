@@ -75,6 +75,8 @@
 						</header>
 						<div class="inner">
 							<div class="posts">
+
+								
 							</div>
 						</div>
 					</section>
@@ -93,7 +95,7 @@
 
 		<!-- Scripts -->
 			{% include scripts.html %}
-			<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+			<!-- <script src="https://apps.elfsight.com/p/platform.js" defer></script> -->
 			<script>
 				function inViewport(element){
 				const bb = element.getBoundingClientRect();
@@ -111,7 +113,7 @@
 				widgetContainer.append(widget);
 				}
 				});
-				setTimeout(function(){ document.querySelector(".posts").innerHTML = '<article><a href="#" class="image filtered"><img src="images/pic01.jpg" alt=""/></a><p><strong>Magna feugiat etiam</strong> ipsum dolor tempus amet, magna consectetur. Fusce eu lacus imperdiet.</p><ul class="actions special"><li><a href="#" class="button small next">Details</a></li></ul></article><article><a href="#" class="image filtered"><img src="images/pic02.jpg" alt=""/></a><p><strong>Lorem ipsum dolor</strong> tempus lacus imperdiet cursus sed nisl adipiscing sed dolor.</p><ul class="actions special"><li><a href="#" class="button small next">Details</a></li></ul></article><article><a href="#" class="image filtered"><img src="images/pic03.jpg" alt=""/></a><p><strong>Feugiat tempus</strong> adipiscing sed quisque mattis rhoncus proin, vel mauris dictum nullam.</p><ul class="actions special"><li><a href="#" class="button small next">Details</a></li></ul></article>' }, 2000);
+				setTimeout(function(){ document.querySelector(".posts").innerHTML = '{% include posts.html %}' }, 2000);
 
 			</script>
 
