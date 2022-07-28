@@ -213,6 +213,29 @@
 		text-align: right;
 	}
 
+	::-webkit-input-placeholder {
+		color: rgba(255,255,255,0.6);
+	}
+	
+	::-moz-placeholder {
+		color: rgba(255,255,255,0.6);
+	}
+	
+	::-ms-placeholder {
+		color: rgba(255,255,255,0.6);
+	}
+	
+	::placeholder {
+		color: rgba(255,255,255,0.6);
+	} 
+
+	aside {
+		font-size: 10px;
+		font-style: italic;
+		line-height: 2;
+		margin-bottom: 2rem;
+	}
+
 	@mixin color-typography($p: null) {
 		$highlight: _palette($p, highlight);
 

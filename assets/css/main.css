@@ -250,6 +250,24 @@ hr {
 .align-right {
   text-align: right; }
 
+::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.6); }
+
+::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.6); }
+
+::-ms-placeholder {
+  color: rgba(255, 255, 255, 0.6); }
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.6); }
+
+aside {
+  font-size: 10px;
+  font-style: italic;
+  line-height: 2;
+  margin-bottom: 2rem; }
+
 /* Row */
 .row {
   display: flex;
@@ -2152,8 +2170,7 @@ table.alt tbody tr td {
     .banner {
       padding: 5rem 3rem 3rem 3rem ; }
       .banner .content img {
-        max-height: 450px;
-        display: none; } }
+        max-height: 450px; } }
   @media screen and (max-width: 980px) {
     .banner {
       padding: 6rem 3rem 4rem 3rem ; }
@@ -2486,7 +2503,7 @@ table.alt tbody tr td {
         width: 250px;
         margin: 0 auto; }
     .main > *.small {
-      width: 48rem; }
+      width: 52rem; }
     .main > *.medium {
       width: 60rem; }
   .main > :first-child:before {
@@ -2911,7 +2928,6 @@ body {
         #header > nav > ul > li > a {
           padding: 0 0.75rem;
           font-weight: 500;
-          overflow: hidden;
           color: #272727; }
           #header > nav > ul > li > a.icon:before {
             float: right;
@@ -2920,6 +2936,20 @@ body {
             color: #272727; }
           #header > nav > ul > li > a.icon:hover:before {
             color: inherit; }
+          #header > nav > ul > li > a.small.fit {
+            background-color: rgba(26, 118, 188, 0.1);
+            color: #1A76BC;
+            background-image: none;
+            -webkit-background-clip: none;
+            padding: 0.7rem 2.6rem;
+            display: inline; }
+            #header > nav > ul > li > a.small.fit:hover {
+              background-color: rgba(26, 118, 188, 0.1);
+              box-shadow: inset 0 0 0 3px #1A76BC;
+              color: #1A76BC;
+              background-image: none;
+              -webkit-background-clip: unset;
+              -webkit-text-fill-color: #1A76BC; }
         #header > nav > ul > li > ul {
           display: none; }
         #header > nav > ul > li.current:after {

@@ -65,7 +65,7 @@
 					> a {
 						padding: 0 0.75rem;
 						font-weight: _font(weight-bold);
-						overflow: hidden;
+						// overflow: hidden;
 						color: _palette(body-dark);
 
 						&.icon {
@@ -80,6 +80,28 @@
 								&:before {
 									color: inherit;
 								}
+							}
+						}
+
+
+
+						&.small.fit {
+							background-color: rgba(26, 118, 188, 0.1);
+							// box-shadow: inset 0 0 0 3px #1a76bc;
+							color: #1A76BC;
+							background-image: none;
+							-webkit-background-clip: none;
+							padding: 0.7rem 2.6rem;
+							display: inline;
+
+
+							&:hover {
+								background-color: rgba(26, 118, 188, 0.1);
+								box-shadow: inset 0 0 0 3px #{_palette(highlight)};;
+								color: #{_palette(highlight)};
+								background-image: none;
+								-webkit-background-clip: unset;
+								-webkit-text-fill-color: #1A76BC;
 							}
 						}
 					}
