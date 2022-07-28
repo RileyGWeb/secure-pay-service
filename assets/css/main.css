@@ -2526,6 +2526,14 @@ table.alt tbody tr td {
         height: 3px;
         margin-left: -10rem;
         background-image: linear-gradient(90deg, #F37520, #FAA819); }
+    .main > header.medium {
+      padding: 4rem 3rem 2rem 3rem ; }
+      .main > header.medium > :first-child {
+        position: relative;
+        padding-bottom: 0.5rem;
+        margin-bottom: 1.5rem; }
+        .main > header.medium > :first-child h1 {
+          margin-bottom: 0rem; }
     .main > header.full {
       text-align: center;
       margin: 0 auto;

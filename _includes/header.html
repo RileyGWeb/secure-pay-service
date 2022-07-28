@@ -2,7 +2,7 @@
 
     <!-- Logo -->
         <div class="logo">
-            <a href="index.html"><img src="images/Big Logo.webp" alt=""></a>
+            <a href="/index.html"><img src="images/Big Logo.webp" alt=""></a>
         </div>
 
     <!-- Nav -->
@@ -11,74 +11,42 @@
                 <li class="root-level"><a href="/">Home</a></li>
 
                 <li class="root-level">
-                    <a href="services" class="icon solid fa-angle-down">Services</a>
+                    <a href="/services" class="icon solid fa-angle-down">Services</a>
                     <ul>
-                        <li><a href="payment-solutions">Payment Solutions</a></li>
-                        <li><a href="retail-processing">Retail Processing</a></li>
-                        <li><a href="mail-order">Mail Order / Telephone Order</a></li>
-                        <li><a href="restaurants">Restaurants</a></li>
-                        <li><a href="mobile-payments">Mobile Payments</a></li>
-                        <li><a href="virtual-terminal">Virtual Terminal Online POS</a></li>
-                        <li><a href="free-credit-card-terminal">Free Credit Card Terminal</a></li>
+                        <li><a href="/payment-solutions">Payment Solutions</a></li>
+                        <li><a href="/retail-processing">Retail Processing</a></li>
+                        <li><a href="/mail-order">Mail Order / Telephone Order</a></li>
+                        <li><a href="/restaurants">Restaurants</a></li>
+                        <li><a href="/mobile-payments">Mobile Payments</a></li>
+                        <li><a href="/virtual-terminal">Virtual Terminal Online POS</a></li>
+                        <li><a href="/free-credit-card-terminal">Free Credit Card Terminal</a></li>
                         <li>
-                            <a href="atm-services" class="icon solid submenu fa-angle-right">ATM Services</a>
+                            <a href="/atm-services" class="icon solid submenu fa-angle-right">ATM Services</a>
                             <ul>
-                                <li><a href="atm-placements">ATM Placements</a></li>
-                                <li><a href="atm-owners">ATM Owners</a></li>
+                                <li><a href="/atm-placements">ATM Placements</a></li>
+                                <li><a href="/atm-owners">ATM Owners</a></li>
                             </ul>
                         </li>
                     </ul>
                 </li>
 
-                <li class="root-level"><a href="blog">Blog</a></li>
+                <li class="root-level"><a href="/blog">Blog</a></li>
 
                 <li class="root-level">
                     <a href="#" class="icon solid fa-angle-down">More</a>
                     <ul>
                         <li><a href="https://securepayservicestore.com/">Store</a></li>
-                        <li><a href="careers">Careers</a></li>
-                        <li class="root-level"><a href="about">About</a></li>
+                        <li><a href="/careers">Careers</a></li>
+                        <li><a href="/about">About</a></li>
                     </ul>
                 </li>
                 
-                <li><a class="button primary fit small" href="contact">Contact</a></li>
+                <li><a class="button primary fit small" href="/contact">Contact</a></li>
                 <li><a class="button primary fit small" href="https://www.accessmyiq.com/">Login</a></li>
                 
             </ul>
 
         </nav>
-
-        <!-- <nav id="nav">
-            <ul id="root">
-                <li class="root-level"><a href="/">Home</a></li>
-                <li class="root-level"><a href="about">About</a></li>
-
-                <li class="root-level">
-                    <a href="services" class="icon solid fa-angle-down">Services</a>
-                    <ul>
-                        <li><a href="payment-solutions">Payment Solutions</a></li>
-                        <li><a href="retail-processing">Retail Processing</a></li>
-                        <li><a href="mail-order">Mail Order / Telephone Order</a></li>
-                        <li><a href="restaurants">Restaurants</a></li>
-                        <li><a href="mobile-payments">Mobile Payments</a></li>
-                        <li><a href="virtual-terminal">Virtual Terminal Online POS</a></li>
-                        <li><a href="free-credit-card-terminal">Free Credit Card Terminal</a></li>
-                        <li>
-                            <a href="atm-services" class="icon solid submenu fa-angle-right">ATM Services</a>
-                            <ul>
-                                <li><a href="atm-placements">ATM Placements</a></li>
-                                <li><a href="atm-owners">ATM Owners</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-
-                <li class="root-level"><a href="https://securepayservicestore.com/">Store</a></li>
-                <li class="root-level"><a href="careers">Careers</a></li>
-                <li class="root-level"><a href="contact-us">Contact Us</a></li>
-                <li class="root-level"><a href="https://www.accessmyiq.com/">Login</a></li>
-            </ul>
-        </nav> -->
 
 </header>
 
@@ -86,8 +54,10 @@
     var rawPagePath = '{{ page.path }}';
     var splitPath = rawPagePath.split('.');
     var pagePath = splitPath[0];
+    console.log(pagePath)
     if (pagePath == 'index') {pagePath = '/'}
-    var currentLink = 'a[href="' + pagePath + '"]'
+    if (pagePath.includes("posts")) {pagePath = 'blog'}
+    var currentLink = 'a[href="/' + pagePath + '"]'
 
     document.querySelector(currentLink).closest('.root-level').classList.add('current')
 </script>
