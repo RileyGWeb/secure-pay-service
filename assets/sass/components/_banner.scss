@@ -156,3 +156,14 @@
 			@include padding(3rem, 1.5rem);
 		}
 	}
+
+	@include breakpoint('<=medium') {
+		.hidden-mobile {
+			display: none;
+		}
+	}
+	@include breakpoint('>=large') {
+		.hidden-desktop {
+			display: none;
+		}
+	}
