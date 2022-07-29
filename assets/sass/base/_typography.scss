@@ -284,29 +284,34 @@
 		font-family: 'Comfortaa';
 		font-style: normal;
 		font-weight: 700;
+		font-display: swap;
 		src: url('/assets/webfonts/Comfortaa/static/Comfortaa-Bold.ttf') format('truetype');
 	}
 	@font-face {
 		font-family: 'Poppins';
 		font-style: normal;
 		font-weight: 300;
+		font-display: swap;
 		src: url('/assets/webfonts/Poppins/Poppins-Light.ttf') format('truetype');
 	}
 	@font-face {
 		font-family: 'Poppins';
 		font-style: italic;
 		font-weight: 300;
+		font-display: swap;
 		src: url('/assets/webfonts/Poppins/Poppins-LightItalic.ttf') format('truetype');
 	}
 	@font-face {
 		font-family: 'Poppins';
 		font-style: normal;
 		font-weight: 600;
+		font-display: swap;
 		src: url('/assets/webfonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
 	}
 	@font-face {
 		font-family: 'Poppins';
 		font-style: italic;
 		font-weight: 600;
+		font-display: swap;
 		src: url('/assets/webfonts/Poppins/Poppins-SemiBoldItalic.ttf') format('truetype');
 	}
