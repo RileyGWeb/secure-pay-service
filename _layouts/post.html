@@ -15,9 +15,17 @@
 
 				<!-- Section -->
 					<section class="main style1">
-						<header class="small">
+						<header class="medium">
 							<h1>{{ page.title }}</h1>
 							<p>{{ page.subtitle }}</p>
+
+							<div class="blog-post-info">
+								<img src="/images/Big Logo.webp" alt="">
+								<div style="align-self: flex-end;">
+									<p>Secure Pay Service</p>
+									<p>{{ page.date | date: "%-d %B %Y" }}</p>
+								</div>
+							</div>
 						</header>
 						<div class="image filtered" data-position="center">
 							<img src="{{ page.imageURL }}" alt="{{ page.imageAltText }}" />

@@ -2,7 +2,7 @@
 
     <!-- Logo -->
         <div class="logo">
-            <a href="/index.html"><img src="images/Big Logo.webp" alt=""></a>
+            <a href="/index.html"><img src="/images/Big Logo.webp" alt=""></a>
         </div>
 
     <!-- Nav -->
@@ -55,7 +55,7 @@
     var splitPath = rawPagePath.split('.');
     var pagePath = splitPath[0];
     console.log(pagePath)
-    if (pagePath == 'index') {pagePath = '/'}
+    if (pagePath == 'index') {pagePath = ''}
     if (pagePath.includes("posts")) {pagePath = 'blog'}
     var currentLink = 'a[href="/' + pagePath + '"]'
 
