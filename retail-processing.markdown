@@ -5,7 +5,7 @@
 layout: service
 title: Retail Processing
 subtitle: Your one-stop shop for all your retail merchant account needs.
-imageURL: images/pic10.jpg
+imageURL: images/retail.webp
 imageAltText: Blog Image
 ---
 

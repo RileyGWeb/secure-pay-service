@@ -5,7 +5,7 @@
 layout: service
 title: Mobile Payments
 subtitle: Harness the power of mobile payments.
-imageURL: images/pic10.jpg
+imageURL: images/mobile-payments.webp
 imageAltText: Mobile Payments
 ---
 

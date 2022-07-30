@@ -5,7 +5,7 @@
 layout: service
 title: Restaurant Services
 subtitle: Set your restaurant up for success with a custom-designed payment solution.
-imageURL: images/pic10.jpg
+imageURL: images/restaraunts.webp
 imageAltText: Restaurant Services
 ---
 

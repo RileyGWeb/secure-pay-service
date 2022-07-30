@@ -5,7 +5,7 @@
 layout: service
 title: ATM Placements
 subtitle: Turnkey Solutions for ATM Placement Programs for all types of  Retail Locations
-imageURL: images/pic10.jpg
+imageURL: images/atm-placements.webp
 imageAltText: Blog Image
 ---
 

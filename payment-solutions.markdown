@@ -6,7 +6,7 @@ layout: service
 wrapperClass: payment-solutions
 title: Payment Solutions
 subtitle: The less complexity for you, the better the payment processing solution is for your business.
-imageURL: images/pic10.jpg
+imageURL: images/payment-solutions.webp
 imageAltText: Blog Image
 ---
 

@@ -5,7 +5,7 @@
 layout: service
 title: Domestic & Abroad ATM Solutions
 subtitle: We help you through the selection of your machine, installation, and programming. We also provide a full and extensive training program. Call us to learn more.
-imageURL: images/pic10.jpg
+imageURL: images/atm-services.webp
 imageAltText: Blog Image
 ---
 

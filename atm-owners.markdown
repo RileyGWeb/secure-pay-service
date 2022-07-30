@@ -5,7 +5,7 @@
 layout: service
 title: ATM Owners
 subtitle: ATMs are a powerful way to offer a more passive income to locations in your portfolio. We offer a turnkey solutions in becoming a profitable ATM Operator.
-imageURL: images/pic10.jpg
+imageURL: images/atm-owners.webp
 imageAltText: Blog Image
 ---
 

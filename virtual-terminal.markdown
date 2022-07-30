@@ -5,7 +5,7 @@
 layout: service
 title: Virtual Terminal Online POS Service
 subtitle: Virtual Payments at Enterprise scale.
-imageURL: images/pic10.jpg
+imageURL: images/virtual-terminal.webp
 imageAltText: Virtual Payments
 ---
 
