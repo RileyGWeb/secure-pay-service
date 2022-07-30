@@ -34,4 +34,4 @@ Location shall have at least 250 transactions per month with foot traffic of 100
 
 Registered Agent of Citizens Bank, N.A., Providence RI.
 
-{% include button.html link="contact-us" text="Request Free ATM Services" %}
+{% include button.html link="contact" text="Request Free ATM Services" %}

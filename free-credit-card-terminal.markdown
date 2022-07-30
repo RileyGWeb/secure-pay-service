@@ -27,4 +27,4 @@ Receive your FREE credit card machine when you sign up for a merchant account!
 
 #### Contact us for a “Free Credit Card Terminal Placement” at your business. And start taking credit card payments.
 
-{% include button.html link="contact-us" text="Request Merchant Services" %}
+{% include button.html link="contact" text="Request Merchant Services" %}

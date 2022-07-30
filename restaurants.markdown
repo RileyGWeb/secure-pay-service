@@ -54,4 +54,4 @@ Whether it’s the winter holiday season, graduation time, or any other time of 
 
 ## Time to quick-serve the best in restaurant payments. CALL US TODAY! <br> 305-307-8530
 
-{% include button.html link="contact-us" text="Request Merchant Services" %}
+{% include button.html link="contact" text="Request Merchant Services" %}

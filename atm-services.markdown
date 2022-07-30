@@ -15,7 +15,7 @@ How about this... every person who withdraws money from an ATM, you will earn pr
 
 {% include atm-services-extra.html %}
 
-{% include button.html link="contact-us" text="Request Merchant Services" %}
+{% include button.html link="contact" text="Request Merchant Services" %}
 
 ### Frequently Asked Questions
 
@@ -50,4 +50,4 @@ Once your ATM is installed – you will be trained on the procedure of loading c
 #### How much revenue can I expect to generate from an ATM placement?
 That generally depends on the amount of foot traffic your location has on a daily basis. The rule of thumb goes like this. 3% – 5% of the foot traffic that actually sees the ATM machine will use the ATM. So let’s figure that you have a total of 300 people a day coming through your doors, and let’s say that you are charging a $2.25 surcharge per valid withdrawal. If you take the middle road that 4% of the people that see the ATM machine will use it. Then you can count on your new automated teller machine to generate you a minimum of 360 transactions per month at $2.25 per valid withdrawal. That comes out to $810 per month or a total of $9,720 per year. All that from one ATM machine at one location.
 
-{% include button.html link="contact-us" text="Request ATM Services" %}
+{% include button.html link="contact" text="Request ATM Services" %}

@@ -31,4 +31,4 @@ Our Credit Card Processing company has helped thousands of merchant’s process 
 * ACH transfers—Your payment processor is integral in the movement of funds from the cardholder’s account to your business’ bank account.
 {: .checked-list}
 
-{% include button.html link="contact-us" text="Request Merchant Services" %}
+{% include button.html link="contact" text="Request Merchant Services" %}
