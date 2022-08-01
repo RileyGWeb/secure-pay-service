@@ -2978,6 +2978,32 @@ ul.checked-list {
       height: 30px;
       width: 30px; }
 
+.partners-grid {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1px; }
+  .partners-grid .item {
+    border: 1px solid #ccc;
+    margin: -1px;
+    display: flex;
+    justify-content: center;
+    height: 130px;
+    transition: all 0.3s; }
+    .partners-grid .item:hover {
+      background-color: #eff4fa; }
+    .partners-grid .item img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      padding: 2rem; }
+  @media screen and (max-width: 1280px) {
+    .partners-grid {
+      grid-template-columns: 1fr 1fr 1fr; } }
+  @media screen and (max-width: 736px) {
+    .partners-grid {
+      grid-template-columns: 1fr 1fr; } }
+
 /* Header */
 body {
   padding-top: 4.5rem; }

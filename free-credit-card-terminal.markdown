@@ -5,8 +5,9 @@
 layout: service
 title: Free Credit Card Terminal
 subtitle: Free & Discounted Credit Card Terminals for Qualified Merchants
-imageURL: images/free-credit-card-terminal.webp
+imageURL: images/collage1.png
 imageAltText: Blog Image
+imageBorder: solid 1px lightgrey
 ---
 
 ## Free Credit Card Terminal

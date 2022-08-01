@@ -11,7 +11,7 @@ imageAltText: Restaurant Services
 
 ## Restaurant POS systems with a buffet of benefits to you and your diners.
 
-When you partner with Vantiv for your restaurant merchant account, you will be able to offer your customers better service, simplify back-office tasks, and grow your business by:
+When you partner with Secure Pay Service for your restaurant merchant account, you will be able to offer your customers better service, simplify back-office tasks, and grow your business by:
 
 Streamline your business operations. Your everyday to-do list of scheduling staff, changing menus, and tracking inventory will be simplified using our proprietary tools.
 Serve your customers more quickly. Fewer accounting errors, pay-at-table technology, and interactive menus mean that you can turn tables more quickly and efficiently so your staff can serve more diners.
