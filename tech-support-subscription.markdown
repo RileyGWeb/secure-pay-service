@@ -25,4 +25,4 @@ imageAltText: Virtual Payments
 
 ### Request a call back about our tech support subscription below!
 
-{% include button.html link="contact" text="Request Tech Support Subscription" %}
+{% include button.html link="/contact" text="Request Tech Support Subscription" %}

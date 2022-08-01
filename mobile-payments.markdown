@@ -23,4 +23,4 @@ Mobile credit card processing is an easy, fast and safe payment processing solut
 
 Thanks to Advances in mobile technology, consumers can now shop online and make payments via mobile wallet apps such as Apple Pay Processing and Google Wallet Processing. Mobile credit card processing is becoming an important requirement in every retail business because it is very convenient, reliable and secure. With our advanced mobile merchant account solutions and EMV card readers, merchants can accept major credit cards, debit cards and checks directly on their cellphone or tablet. Processing transactions with our smartphone credit card processing app can help boost your sales and thus improve customer service wherever you do business.
 
-{% include button.html link="contact" text="Request Merchant Services" %}
+{% include button.html link="/contact" text="Request Merchant Services" %}

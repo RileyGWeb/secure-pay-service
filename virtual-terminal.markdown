@@ -46,4 +46,4 @@ Get a virtual terminal and accept any payment, anywhere—even recurring payment
 * All wrapped up with comprehensive reporting too. It’s time not to miss another payment, ever again.
 {: .checked-list}
 
-{% include button.html link="contact" text="Request Merchant Services" %}
+{% include button.html link="/contact" text="Request Merchant Services" %}

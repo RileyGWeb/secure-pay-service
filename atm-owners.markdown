@@ -40,4 +40,4 @@ Repair and Maintenance
 Mobile ATMs for Events
 : Having an event or special occasion and need a mobile ATM service. Our experienced on-site technicians ensure that every mobile ATM is on-line, dispensing cash, and operating properly. Throughout the duration of each and every special event, we monitor and replenish large supplies of cash without an interruption of service to your patrons. Our experience and operating procedures ensure continuous ATM service during your busiest weekends when our mobile ATMs are used the most.
 
-{% include button.html link="contact" text="Request ATM Services" %}
+{% include button.html link="/contact" text="Request ATM Services" %}

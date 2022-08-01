@@ -17,4 +17,4 @@ A Retail Merchant Account allow merchants to accept all major credit cards, debi
 
 A Retail Merchant Account from Secure Pay Service will provide next-day funding and the highest PCI security on every Retail Credit Card Transaction you make at your retail shop. Plus, you will enjoy all our technology solutions such as EMV Retail Credit Card Terminals, Point of Sale Equipment and other POS systems that will take the struggle out of payments.
 
-{% include button.html link="contact" text="Request Merchant Services" %}
+{% include button.html link="/contact" text="Request Merchant Services" %}

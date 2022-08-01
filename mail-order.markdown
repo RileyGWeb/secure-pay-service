@@ -37,4 +37,4 @@ All MOTO merchant accounts include the following features:
 
 Contact the leading Merchant Account Service Providers and benefit from our extensive selection of small business merchant processing services, credit card terminals and best payment processing systems online. We offer the lowest rates for Phone and Mail Order Credit Card Processing…Guaranteed !
 
-{% include button.html link="contact" text="Request Merchant Services" %}
+{% include button.html link="/contact" text="Request Merchant Services" %}
