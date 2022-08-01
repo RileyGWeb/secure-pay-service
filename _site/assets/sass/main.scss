@@ -1,0 +1,350 @@
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/vendor';
+@import 'libs/breakpoints';
+@import 'libs/html-grid';
+@import 'libs/fixed-grid';
+@import '../css/fontawesome.min.css';
+// @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+
+
+// Breakpoints.
+
+	@include breakpoints((
+		xlarge:   ( 1281px,  1680px ),
+		large:    ( 981px,   1280px ),
+		medium:   ( 737px,   980px  ),
+		small:    ( 481px,   736px  ),
+		xsmall:   ( 361px,   480px  ),
+		xxsmall:  ( null,    360px  )
+	));
+
+// Mixins.
+
+	@mixin color($p) {
+		@include color-typography($p);
+		@include color-box($p);
+		@include color-button($p);
+		@include color-form($p);
+		@include color-icon($p);
+		@include color-list($p);
+		@include color-table($p);
+		@include color-features($p);
+	}
+
+// Base.
+
+	@import 'base/reset';
+	@import 'base/page';
+	@import 'base/typography';
+
+// Component.
+
+	@import 'components/row';
+	@import 'components/box';
+	@import 'components/button';
+	@import 'components/form';
+	@import 'components/icon';
+	@import 'components/image';
+	@import 'components/list';
+	@import 'components/actions';
+	@import 'components/icons';
+	@import 'components/section';
+	@import 'components/table';
+	@import 'components/banner';
+	@import 'components/features';
+	@import 'components/posts';
+	@import 'components/main';
+
+// Layout.
+
+	@import 'layout/header';
+	@import 'layout/footer';
+	@import 'layout/wrapper';
+	@import 'layout/navPanel';
+
+	.fx-type {
+		.char {
+			@include vendor('transition', 'all 0.125s ease-in-out');
+			opacity: 1;
+
+			&.inactive {
+				opacity: 0.25;
+				font-weight: _font(weight);
+			}
+		}
+
+		.cursor {
+			opacity: 0.25;
+			font-weight: _font(weight);
+			display: inline-block;
+			width: 2rem;
+			@include vendor('transform', 'scale(1.125)');
+		}
+	}
+
+	.image-vertical-left {
+		display: flex;
+		margin-bottom: 2rem;
+
+		& > * {
+			max-width: 50%;
+			height: 100%;
+		}
+
+		img {
+			border-radius: 24px;
+			height: auto;
+			object-fit: cover;
+			margin-right: 2rem;
+		}
+
+		.content {
+			padding-left: 2rem;
+			margin-left: 2rem;
+		}
+	}
+
+	.partners {
+		h2 {
+			text-align: center;
+		}
+
+		.logo-row {
+			justify-content: center;
+			padding-bottom: 2rem;
+	
+			img {
+				height: 50px;
+				margin: 0 1.5rem;
+			}
+		}
+	}
+
+	.career {
+
+		& > * {
+			margin: 0 2rem;
+		}
+
+		form {    
+			max-width: 400px;
+			padding: 0 4rem;
+			margin-top: 3rem;
+		}
+	}
+
+	.partner-image-contain {
+		position: relative;
+		padding: 2rem;
+		border-radius: 16px;
+		overflow: hidden;
+		display: flex;
+		margin-bottom: 2rem;
+
+		@include standard-gradient-overlay;
+
+		&:before, &:after {
+			// opacity: 0.25;
+		}
+
+		.partner-image {
+			max-width: 820px;
+			position: relative;
+			z-index: 100;
+			width: 100%;
+			margin: auto;
+		}
+
+		@include breakpoint('<=medium') {
+			max-width: 400px;
+			margin: 1rem auto;
+		}
+
+	}
+
+	.atm-extra {
+		margin-bottom: 3rem;
+
+		.atm-grid {
+			display: flex;
+			flex-direction: column;
+			width: 700px;
+			margin: 0 auto;
+			position: relative;
+			border-radius: 16px;
+			overflow: hidden;
+
+			@include standard-gradient-overlay;
+
+			.row {
+				display: flex;
+				height: 50%;
+				z-index: 15;
+				margin: 0;
+				position: relative;
+
+				img {
+					height: 100px;
+					width: 100px;
+				}
+
+				& > div {
+					width: 50%;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					text-align: center;
+					padding: 3rem;
+
+					p {
+						margin-top: 1.25rem;
+						margin-bottom: 0;
+						color: #fff;
+					}
+				}
+
+				&.row-1 {
+					
+					& div:last-child {
+						border-left: 1px solid #{_palette(highlight)};
+					}
+				}
+
+				&.row-2 {
+					
+					& div:first-child {
+						border-top: 1px solid #{_palette(highlight)};
+					}
+					& div:last-child {
+						border-left: 1px solid #{_palette(highlight)};
+						border-top: 1px solid #{_palette(highlight)};
+					}
+				}
+			}
+		}
+	}
+
+	@include breakpoint("<=medium") {
+		.image-vertical-left {
+			flex-direction: column;
+	
+			& > * {
+				max-width: 100%;
+			}
+	
+			img {
+				border-radius: 16px;
+				margin-right: 0rem;
+				margin-bottom: 2rem;
+				max-height: 340px;
+			}
+	
+			.content {
+				padding-left: 0rem;
+				margin-left: 0rem;
+				max-width: 550px;
+			}
+		}
+		.partners {
+	
+			.logo-row {
+
+				img {
+					height: 40px;
+				}
+			}
+		}
+
+		.atm-extra {
+
+			.atm-grid {
+				width: 100%;
+
+				.row {	
+					& > div {
+						padding: 1.75rem;
+
+					}
+				}
+			}
+		}
+	}
+
+	@include breakpoint("<=small") {
+
+
+		.partners {
+	
+			.logo-row {
+				flex-direction: column;
+
+				img {
+					margin: 1.5rem;
+				}
+			}
+		}
+
+		.career {
+			
+	
+			form {    
+				padding: 0;
+			}
+		}
+
+		.atm-extra {
+
+			.atm-grid {
+	
+				.row {
+					flex-direction: column;
+	
+					img {
+						height: 100px;
+						width: 100px;
+					}
+	
+					& > div {
+						width: 100%;
+						
+						p {
+							max-width: 350px;
+							margin-left: auto;
+							margin-right: auto;
+						}
+					}
+	
+					&.row-1 {
+
+						& div {
+							border-bottom: 1px solid #{_palette(highlight)};
+						}
+						
+						& div:last-child {
+							border-left: none;
+						}
+					}
+	
+					&.row-2 {
+
+
+						& div {
+							border-bottom: 1px solid #{_palette(highlight)};
+						}
+						
+						& div:first-child {
+							border-top: none;
+						}
+						& div:last-child {
+							border: none;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.flex{display:flex;}
+	.flex-col{flex-direction:column;}

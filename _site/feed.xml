@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-01T14:44:43-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Why is PCI compliance important?</title><link href="http://localhost:4000/2022/07/27/PCI-compliance.html" rel="alternate" type="text/html" title="Why is PCI compliance important?" /><published>2022-07-27T15:01:53-07:00</published><updated>2022-07-27T15:01:53-07:00</updated><id>http://localhost:4000/2022/07/27/PCI-compliance</id><content type="html" xml:base="http://localhost:4000/2022/07/27/PCI-compliance.html"><![CDATA[<p>PCI compliance is a set of security standards that are used to protect credit card information. It was created by the Payment Card Industry Security Standards Council. The standards were first introduced in 2004 and they have been updated several times since then.</p>
+
+<p>The standards are designed to protect credit card information from being stolen by hackers. They are also designed to ensure that credit card information is not accidentally leaked by businesses.</p>
+
+<p>The standards cover several different areas including:</p>
+
+<ul class="checked-list">
+  <li>Network security: This includes firewalls, encryption, and network segmentation.</li>
+  <li>Access control: This includes password protection and multifactor authentication.</li>
+  <li>Application security: This includes secure coding practices and vulnerability management.</li>
+  <li>Physical security: This includes the use of locks, cameras, and alarm systems.</li>
+  <li>Business continuity: This includes disaster recovery plans and backup systems.</li>
+</ul>
+
+<p>Compliance with the standards is voluntary, but it is highly recommended by the PCI Security Standards Council. It is also required by most major credit card companies.</p>
+
+<p>If you fail to comply with the standards, you could be fined or even lose your ability to accept credit cards.</p>
+
+<h4 id="who-is-responsible-for-pci-compliance">Who is responsible for pci compliance?</h4>
+
+<p>Merchants and service providers that process credit card payments are required to comply with these standards.</p>
+
+<p>Merchants and service providers that process credit card payments are not required to comply with PCI compliance if they have less than 10,000 transactions per year.</p>
+
+<h4 id="who-enforces-pci-compliance">Who enforces pci compliance?</h4>
+
+<p>PCI compliance was created by the Payment Card Industry Security Standards Council.</p>
+
+<p>The council was formed in 2006 by the major credit card companies, including American Express, Discover Financial Services, JCB International, MasterCard Worldwide, and Visa Inc.</p>
+
+<p>The council’s goal is to reduce credit card fraud by creating a set of security standards for merchants and service providers that process credit card payments.</p>
+
+<h4 id="how-long-does-it-take-to-get-pci-compliance">How long does it take to get PCI compliance?</h4>
+
+<p>From start to finish, the process of becoming PCI compliant typically takes between a day and two weeks. The actual time for compliance will be dependent on how long the self-assessment questionnaire takes to complete.</p>
+
+<h4 id="how-do-you-get-a-pci-compliance-certificate">How do you get a PCI compliance certificate?</h4>
+
+<p>Step 1: Identify all of the payment card information that is stored on your company’s computers. This includes credit card numbers, credit card security codes, and credit card expiration dates.</p>
+
+<p>Step 2: Determine if your company’s computers are secure from hackers and other threats.</p>
+
+<p>Step 3: If your company’s computers are not secure from hackers and other threats, make sure that they are secure before the next step is taken.</p>
+
+<p>Step 4: Make sure that all of your employees are aware of the rules and regulations of the payment card industry.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[PCI compliance is a set of security standards that are used to protect credit card information. It was created by the Payment Card Industry Security Standards Council. The standards were first introduced in 2004 and they have been updated several times since then.]]></summary></entry></feed>
