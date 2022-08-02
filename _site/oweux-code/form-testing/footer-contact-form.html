@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<form netlify="" action="/oweux-code/form-handling/footer-contact-form.php"
+<form id="insert-form-id-here" netlify="" action="/oweux-code/form-handling/footer-contact-form.php"
       method="post"
       enctype="multipart/form-data">
     <div class="fields">
@@ -29,5 +29,37 @@
         <li><input value="Submit" class="button next" type="submit"></li>
     </ul>
 </form>
+<script src="/assets/js/jquery.min.js"></script>
+<script>
+
+    $("#insert-form-id-here").submit(function(event) {
+
+        console.log('form submitted');
+
+        event.preventDefault();
+
+        console.log('after preventDefault');
+
+        var form = $(this);
+        var actionUrl = form.attr('action');
+
+        $.ajax({
+            type: "POST",
+            url: actionUrl,
+            data: form.serialize()
+
+        }).done(function (msg, event) {
+
+            console.log('event: ' + event);
+            console.log('done!');
+            console.log(this);
+
+            $(form).html(msg);
+
+        });
+
+    });
+
+</script>
 </body>
 </html>

@@ -1,6 +1,0 @@
-<?php
-
-$form_name = basename(__FILE__, '.php');
-
-?>
-<div id="<?PHP echo $form_name; ?>-thank-you-block"></div>
