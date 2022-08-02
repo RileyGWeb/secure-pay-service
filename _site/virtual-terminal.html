@@ -238,40 +238,7 @@
         <div style="height:0;overflow:hidden;">Designed and developed by <a href="https://www.speedy-sites.com">Speedy Sites, LLC</a></div>
     </div>
 
-    <script>
-        // setTimeout(function(){ document.getElementById("insert_logo").innerHTML = '<img src="/images/footer-logo.webp" alt="Secure Pay Service Logo" loading="lazy">' }, 1000);
-
-
-        $("#footer-contact-form").submit(function(event) {
-
-        //console.log('form submitted');
-
-        event.preventDefault();
-
-        //console.log('after preventDefault');
-
-        var form = $(this);
-        var actionUrl = form.attr('action');
-
-        $.ajax({
-            type: "POST",
-            url: actionUrl,
-            data: form.serialize()
-
-        }).done(function (msg, event) {
-
-            //console.log('event: ' + event);
-            //console.log('done!');
-            //console.log(this);
-
-            $(form).html(msg);
-
-        });
-
-        });
-
-
-    </script>
+    
 </footer>
 
 			</div>
@@ -283,6 +250,41 @@
 <script src="/assets/js/breakpoints.min.js"></script>
 <script src="/assets/js/util.js"></script>
 <script src="/assets/js/main.js"></script>
+
+<script>
+    // setTimeout(function(){ document.getElementById("insert_logo").innerHTML = '<img src="/images/footer-logo.webp" alt="Secure Pay Service Logo" loading="lazy">' }, 1000);
+
+
+    $("#footer-contact-form").submit(function(event) {
+
+    //console.log('form submitted');
+
+    event.preventDefault();
+
+    //console.log('after preventDefault');
+
+    var form = $(this);
+    var actionUrl = form.attr('action');
+
+    $.ajax({
+        type: "POST",
+        url: actionUrl,
+        data: form.serialize()
+
+    }).done(function (msg, event) {
+
+        //console.log('event: ' + event);
+        //console.log('done!');
+        //console.log(this);
+
+        $(form).html(msg);
+
+    });
+
+    });
+
+
+</script>
 
 	</body>
 </html>
