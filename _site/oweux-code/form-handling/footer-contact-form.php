@@ -1,6 +1,10 @@
 <?php
 
-$form_json_log_file =  '../form-logging/' . basename(__DIR__, '.php') . ".json";
+date_default_timezone_set('America/New_York');
+
+$form_name = basename(__FILE__, '.php');
+
+$form_json_log_file = '../form-logging/' . $form_name . ".json";
 
 if (!file_exists($form_json_log_file)) {
 
@@ -10,7 +14,7 @@ if (!file_exists($form_json_log_file)) {
 
     $form_json_log_array = json_decode(file_get_contents($form_json_log_file), true);
 
-    if(!is_array($form_json_log_array)){
+    if (!is_array($form_json_log_array)) {
 
         $form_json_log_array = array();
 
@@ -19,20 +23,27 @@ if (!file_exists($form_json_log_file)) {
 
 }
 
-$form_json_log_array[] = $_POST;
+//echo "<pre>" . print_r($_POST, true) . "</pre>";
 
-if (isset($POST) && !empty($POST)) {
+$form_submission_unique = date('Y-m-d H-i-s') . mt_rand(10000, 99999);
 
-    file_put_contents($form_json_log_file, json_encode($POST));
+if (isset($_POST) && !empty($_POST)) {
+
+    $form_json_log_array[$form_submission_unique] = $_POST;
 
 } else {
 
-    file_put_contents($form_json_log_file, json_encode(array(
+    $form_json_log_array[$form_submission_unique] = array(
 
         'success' => 'false',
         'message' => 'nothing posted',
 
-    )), FILE_APPEND);
+    );
 
 }
 
+//echo "<pre>" . print_r($form_json_log_array, true) . "</pre>";
+
+file_put_contents($form_json_log_file, json_encode($form_json_log_array));
+
+require("../form-output/{$form_name}-thank-you-block.php");
