@@ -145,7 +145,7 @@
         <p>This contact form is for US customers only. If you are looking for one of our other locations, please email <a href="mailto:info@securepayservice.com">info@securepayservice.com</a>.</p>
     </header>
     <div class="inner special medium">
-        <form netlify action="#" method="post">
+        <form id="footer-contact-form" action="https://www.securepayservice.com/oweux-code/form-handling/footer-contact-form.php" method="post">
             <div class="fields">
                 <div class="field half">
                     <input name="name" id="name" placeholder="Name" type="text" />
@@ -223,6 +223,37 @@
 
     <script>
         // setTimeout(function(){ document.getElementById("insert_logo").innerHTML = '<img src="/images/footer-logo.webp" alt="Secure Pay Service Logo" loading="lazy">' }, 1000);
+
+
+        $("#footer-contact-form").submit(function(event) {
+
+        //console.log('form submitted');
+
+        event.preventDefault();
+
+        //console.log('after preventDefault');
+
+        var form = $(this);
+        var actionUrl = form.attr('action');
+
+        $.ajax({
+            type: "POST",
+            url: actionUrl,
+            data: form.serialize()
+
+        }).done(function (msg, event) {
+
+            //console.log('event: ' + event);
+            //console.log('done!');
+            //console.log(this);
+
+            $(form).html(msg);
+
+        });
+
+        });
+
+
     </script>
 </footer>
 
