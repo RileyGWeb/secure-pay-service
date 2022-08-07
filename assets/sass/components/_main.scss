@@ -1,6 +1,23 @@
 
 /* Main */
+	.home {		
 
+		h2 {
+			position: relative;
+			align-self: center;
+
+			&:after {
+				content: '';
+				display: block;
+				position: absolute;
+				bottom: 0;
+				left: 2%;
+				width: 96%;
+				height: 3px;
+				background-image: linear-gradient(90deg, #{_palette(accent1)}, #{_palette(accent4)});
+			}
+		}
+	}
 	.main {
 		position: relative;
 		background-color: _palette(bg);
@@ -151,7 +168,7 @@
 		}
 
 		> .inner {
-			@include padding(6rem, 6rem);
+			@include padding(4rem, 4rem);
 			margin-left: auto;
 			margin-right: auto;
 
@@ -468,5 +485,23 @@
 	}
 	@include breakpoint('<=small') {
 		grid-template-columns: 1fr 1fr;
+	}
+}
+
+.pricing-text {
+	display: flex;
+	margin-top: 2rem;
+
+	& > div {
+		margin: 1rem;
+	}
+
+	@include breakpoint('<=medium') {
+		flex-direction: column;
+		margin-top: 1rem;
+
+		& > div {
+			margin: 1rem 0;
+		}
 	}
 }

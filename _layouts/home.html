@@ -14,7 +14,7 @@
 		{% include header.html %}
 
 		<!-- Wrapper -->
-			<div id="wrapper">
+			<div id="wrapper" class="home">
 
 				<!-- Banner -->
 					<section class="banner" style="border-radius: 0 0 8px 8px;">
@@ -74,11 +74,23 @@
 									</tr>
 								</tbody>
 							</table>
+							<div class="pricing-text">
+								<div>
+									<h3>How?</h3>
+									<p>When you go to your local bank and ask for a merchant service account, you are approaching them as a "retail customer." With that said, expect to pay retail.</p>
+									<p>Secure Pay Service is your ticket to wholesale pricing. We are an authorized wholesaler for the same banks so when you sign under our umbrella, you take advantage of 2.2% per credit card transaction versus 3% and higher.</p>
+								</div>
+								<div>
+									<h3>How do you do it?</h3>
+									<p>When our competitors went digital on the application process, their processing rates went up.</p>
+									<p>We learned that if we didn't, customers like you could take advantage of the savings. Think of it like a discount. The outcome for your application getting manually reviewed by our underwriting department means you get the lowest processing rate across the board.</p>
+								</div>
+							</div>
 						</div>
 					</section>
 
 				<!-- Section -->
-					<section class="main style1">
+					<section class="main style1 flex" style="flex-direction: column;">
 						<h2 class="features-title">Our Services</h2>
 						{% include services-grid.html %}
 						<footer>
@@ -89,34 +101,21 @@
 					</section>
 
 					<section class="main style1 partners">
-						<div class="inner" style="padding: 4.5rem 0 0 0;">
+						<div class="inner flex" style="padding: 4.5rem 0 0 0;flex-direction: column;">
 							<h2>Authorized Partners</h2>
 							<!-- <div class="partner-image-contain">
 								<img class="partner-image hidden-mobile" src="/images/logos-desktop.png" alt="Composite image of all of our client logos" loading="lazy">
 								<img class="partner-image hidden-desktop" src="/images/logos-mobile.png" alt="Composite image of all of our client logos" loading="lazy">
 							</div> -->
 							<div class="partners-grid grid">
-								<a href="https://www.authorize.net/" class="item"><img src="/images/logos/authorize.webp" alt="" loading="lazy"></a>
-								<a href="https://www.clover.com/" class="item"><img src="/images/logos/clover.webp" alt="" loading="lazy"></a>
-								<a href="https://www.dplwireless.com/" class="item"><img src="/images/logos/dpl.webp" alt="" loading="lazy"></a>
-								<a href="https://www.53.com/" class="item"><img src="/images/logos/fifththird.webp" alt="" loading="lazy"></a>
-								<a href="https://hyosungamericas.com/" class="item"><img src="/images/logos/hyosung.webp" alt="" loading="lazy"></a>
-								<a href="https://www.ingenico.com/" class="item"><img src="/images/logos/Ingenico.webp" alt="" loading="lazy"></a>
-								<a href="https://www.npcpayments.com/" class="item"><img src="/images/logos/npc.webp" alt="" loading="lazy"></a>
-								<a href="https://home.swipesimple.com/" class="item"><img src="/images/logos/swipesimple.webp" alt="" loading="lazy"></a>
-								<a href="https://www.touchbistro.com/" class="item"><img src="/images/logos/touch-bistro.webp" alt="" loading="lazy"></a>
-								<a href="https://triton.com/" class="item"><img src="/images/logos/triton.webp" alt="" loading="lazy"></a>
-								<a href="https://www.tsys.com/" class="item"><img src="/images/logos/TSYS.webp" alt="" loading="lazy"></a>
-								<a href="https://www.verifone.com/en" class="item"><img src="/images/logos/verifone.webp" alt="" loading="lazy"></a>
-								<a href="https://www.fisglobal.com/en/gs?q=/merchant-solutions-worldpay" class="item"><img src="/images/logos/Worldpay-logo.webp" alt="" loading="lazy"></a>
-								<a href="http://www.posportal.com/" class="item"><img src="/images/logos/posportal.webp" alt="" loading="lazy"></a>
+
 							</div>
 						</div>
 					</section>
 
 				<!-- Reviews -->
 					<section class="main style1 reviews">
-						<div class="inner">
+						<div class="inner flex" style="flex-direction: column;">
 							<h2 style="margin:0;text-align:center;">What our customers say</h2>
 							<div id="widgetContainer"></div>
 						</div>
@@ -124,7 +123,7 @@
 
 				<!-- Section -->
 					<section class="main style1">
-						<header class="small" style="padding:0;">
+						<header class="small flex" style="flex-direction: column;padding:0;">
 							<h2 style="padding:0;margin-top:3rem">Blog & News</h2>
 						</header>
 						<div class="inner">
@@ -168,6 +167,7 @@
 				}
 				});
 				setTimeout(function(){ document.querySelector(".posts").innerHTML = '{% include posts.html %}' }, 2000);
+				setTimeout(function(){ document.querySelector(".partners-grid").innerHTML = '								<a target="_blank" href="https://www.authorize.net/" class="item"><img src="/images/logos/authorize.webp" alt="" loading="lazy"></a><a target="_blank" href="https://www.clover.com/" class="item"><img src="/images/logos/clover.webp" alt="" loading="lazy"></a><a target="_blank" href="https://www.dplwireless.com/" class="item"><img src="/images/logos/dpl.webp" alt="" loading="lazy"></a><a target="_blank" href="https://www.53.com/" class="item"><img src="/images/logos/fifththird.webp" alt="" loading="lazy"></a><a target="_blank" href="https://hyosungamericas.com/" class="item"><img src="/images/logos/hyosung.webp" alt="" loading="lazy"></a><a target="_blank" href="https://www.ingenico.com/" class="item"><img src="/images/logos/Ingenico.webp" alt="" loading="lazy"></a><a target="_blank" href="https://www.npcpayments.com/" class="item"><img src="/images/logos/npc.webp" alt="" loading="lazy"></a><a target="_blank" href="https://home.swipesimple.com/" class="item"><img src="/images/logos/swipesimple.webp" alt="" loading="lazy"></a><a target="_blank" href="https://www.touchbistro.com/" class="item"><img src="/images/logos/touch-bistro.webp" alt="" loading="lazy"></a><a target="_blank" href="https://triton.com/" class="item"><img src="/images/logos/triton.webp" alt="" loading="lazy"></a><a target="_blank" href="https://www.tsys.com/" class="item"><img src="/images/logos/TSYS.webp" alt="" loading="lazy"></a><a target="_blank" href="https://www.verifone.com/en" class="item"><img src="/images/logos/verifone.webp" alt="" loading="lazy"></a><a target="_blank" href="https://www.fisglobal.com/en/gs?q=/merchant-solutions-worldpay" class="item"><img src="/images/logos/Worldpay-logo.webp" alt="" loading="lazy"></a><a target="_blank" href="http://www.posportal.com/" class="item"><img src="/images/logos/posportal.webp" alt="" loading="lazy"></a>' }, 1500);
 
 			</script>
 
