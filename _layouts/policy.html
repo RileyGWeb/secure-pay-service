@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>{{ page.title }} | Secure Pay Service</title>
+		{% include head.html %}
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			{% include header.html %}
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Section -->
+					<section class="main style1">
+						<header class="small">
+							<h1>{{ page.title }}</h1>
+							<p>{{ page.subtitle }}</p>
+						</header>
+						<div class="inner">
+							{{ content }}
+						</div>
+					</section>
+
+				{% include contact-form.html %}
+					<!-- Footer -->
+					{% include footer.html %}
+
+			</div>
+
+		<!-- Scripts -->
+			{% include scripts.html %}
+
+	</body>
+</html>
