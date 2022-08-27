@@ -4,7 +4,7 @@
 
 layout: policy
 title: Privacy Policy
-subtitle: Protecting your private information is our priority. This Statement of Privacy applies to 4050 NW 29TH STREET and Secure Pay Service, LLC and governs data collection and usage. For the purposes of this Privacy Policy, unless otherwise noted, all references to Secure Pay Service, LLC include 4050 NW 29TH STREET. The Secure Pay Service, LLC website is a sales and service site. By using the Secure Pay Service, LLC website, you consent to the data practices described in this statement.
+subtitle: Protecting your private information is our priority. This Statement of Privacy applies to 8950 SW 74th Court Suite:2201 Miami, FL 33156 and Secure Pay Service, LLC and governs data collection and usage. For the purposes of this Privacy Policy, unless otherwise noted, all references to Secure Pay Service, LLC include 8950 SW 74th Court Suite:2201 Miami, FL 33156. The Secure Pay Service, LLC website is a sales and service site. By using the Secure Pay Service, LLC website, you consent to the data practices described in this statement.
 imageAltText: Mobile Payments
 ---
 
