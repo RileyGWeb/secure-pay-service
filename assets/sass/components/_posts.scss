@@ -133,7 +133,7 @@
 		@include breakpoint("<=medium") {
 			flex-direction: column;
 
-			& > div {
+			& > div { 
 				padding: 4rem 0; 
 			}
 			& > div:first-child {
@@ -169,6 +169,7 @@
 		.banner {
 			p {
 				margin-bottom: 1rem;
+				max-width: 100%;
 			}
 
 		}
