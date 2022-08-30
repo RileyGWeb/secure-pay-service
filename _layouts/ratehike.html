@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Secure Pay Service</title>
+		{% include head.html %}
+		<style>.eapps-widget > div > div > a {
+			display:none!important;
+		}</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+		{% include header.html %}
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="home rate-hike">
+
+				<!-- Banner -->
+					<section class="banner" style="border-radius: 0 0 8px 8px;padding-top:3rem;padding-bottom:3rem!important;">
+						<div class="image" data-position="right">
+							<!-- <img src="images/banner.jpg" alt="" /> -->
+						</div>
+						<div class="content">
+							<div style="text-align: left;">
+								<h1 class="splash" style="font-size: 2.15rem;">Visa & Mastercard<br> Raised Your Fees?</h1>
+								<p>There was a <strong>major Visa/Mastercard rate hike</strong> that affected restaurants, bars, cafes, retail, services etc. In response, a class-action suit was filed against the major card brands and settlement payouts are available to all the merchants affected…</p>
+								<p>The industry is notorious for taking advantage of merchants. </p>
+								<p>If your business processes card payments regularly, it’s likely you are being overcharged or been ripped off with extra fees without knowing it. </p>
+								<ul class="actions">
+									<li><a href="contact" target="_blank" class="button next" style="margin-top: 1rem;margin-bottom:-1rem;">FREE Consultation</a></li>
+								</ul>
+							</div>
+							<div id="banner_chick" style="align-self: center;">
+								<img src="/images/price-up.svg" alt="" style="bottom:0;width:300px;">
+							</div>
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section class="main style1">
+						<div class="inner side-by-side">
+							<div>
+								<h2>What you need to know</h2>
+								<ul>
+									<li>Identify where the excess fees are hiding</li>
+									<li>Determine the risks and pitfalls of going out to bid for your credit card processing business</li>
+									<li>Recognize the proper approach to managing an efficient merchant account</li>
+								</ul>
+							</div>
+							<div>
+								<h2>A partner on your side</h2>
+								<ul>
+									<li>We negotiate with the processors on your behalf to reduce your&nbsp; rates and eliminate hidden fees.</li>
+									<li>We regularly monitor your statements to watch for rising rates&nbsp; &nbsp; and additional fees.</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+					<section class="main style1">
+						<div class="inner flex" style="flex-direction: column;">
+							<h2 style="text-align: center">Our Pricing</h2>
+							<!-- <img  src="/images/pricing_table.webp" alt=""> -->
+							<table style="margin: 0 auto 2rem auto;width: 100%;max-width:540px">
+								<thead>
+									<tr>
+										<th>Processors</th>
+										<th>Retail Fee</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Square</td>
+										<td>3.5% + $0.20</td>
+									</tr>
+									<tr>
+										<td>Chase</td>
+										<td>3% + $0.20</td>
+									</tr>
+									<tr>
+										<td>Wells Fargo</td>
+										<td>3.2% + $0.20</td>
+									</tr>
+									<tr>
+										<td>Stripe</td>
+										<td>3.5% + $0.20</td>
+									</tr>
+									<tr>
+										<td>Paypal</td>
+										<td>2.99% + $0.48</td>
+									</tr>
+									<tr>
+										<td style="color:#F5841F">Secure Pay Service</td>
+										<td class="circled">2.2% + $0.20</td>
+									</tr>
+								</tbody>
+							</table>
+							<div class="pricing-text">
+								<div>
+								</div>
+								<div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section class="main style1 flex" style="flex-direction: column;">
+						<h2 class="features-title">Our Services</h2>
+						{% include services-grid.html %}
+						<footer>
+							<ul class="actions special">
+								<li><a href="services" class="button next">See more</a></li>
+							</ul>
+						</footer>
+					</section>
+
+				<!-- Reviews -->
+					<section class="main style1 reviews">
+						<div class="inner flex" style="flex-direction: column;">
+							<h2 style="margin:0;text-align:center;">What our customers say</h2>
+							<div id="widgetContainer"></div>
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section class="main style1">
+						<header class="small flex" style="flex-direction: column;padding:0;">
+							<h2 style="padding:0;margin-top:3rem">Blog & News</h2>
+						</header>
+						<div class="inner">
+							<div class="posts">
+
+								
+							</div>
+						</div>
+					</section>
+
+					
+
+				{% include contact-form.html %}
+
+
+
+				<!-- Footer -->
+				{% include footer.html %}
+					
+
+			</div>
+
+		<!-- Scripts -->
+			{% include scripts.html %}
+			<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+			<script>
+				function inViewport(element){
+				const bb = element.getBoundingClientRect();
+				return !(bb.top > innerHeight || bb.bottom < 0);
+				}
+				
+				let widgetVisible = false;
+				const widgetContainer = document.querySelector('#widgetContainer');
+				
+				document.addEventListener('scroll', event => {
+				if (inViewport( widgetContainer ) && !widgetVisible){
+				widgetVisible = true;
+				const widget = document.createElement('div');
+				widget.className = "elfsight-app-99f2a88f-7abc-4f9c-9a50-8afef7f5d966";
+				widgetContainer.append(widget);
+				}
+				});
+				setTimeout(function(){ document.querySelector(".posts").innerHTML = '{% include posts.html %}' }, 2000);
+				setTimeout(function(){ document.querySelector(".partners-grid").innerHTML = '								<a target="_blank" href="https://www.authorize.net/" class="item"><img src="/images/logos/authorize.webp" alt="" loading="lazy"></a><a target="_blank" href="https://www.clover.com/" class="item"><img src="/images/logos/clover.webp" alt="" loading="lazy"></a><a target="_blank" href="https://www.dplwireless.com/" class="item"><img src="/images/logos/dpl.webp" alt="" loading="lazy"></a><a target="_blank" href="https://www.53.com/" class="item"><img src="/images/logos/fifththird.webp" alt="" loading="lazy"></a><a target="_blank" href="https://hyosungamericas.com/" class="item"><img src="/images/logos/hyosung.webp" alt="" loading="lazy"></a><a target="_blank" href="https://www.ingenico.com/" class="item"><img src="/images/logos/Ingenico.webp" alt="" loading="lazy"></a><a target="_blank" href="https://www.npcpayments.com/" class="item"><img src="/images/logos/npc.webp" alt="" loading="lazy"></a><a target="_blank" href="https://home.swipesimple.com/" class="item"><img src="/images/logos/swipesimple.webp" alt="" loading="lazy"></a><a target="_blank" href="https://www.touchbistro.com/" class="item"><img src="/images/logos/touch-bistro.webp" alt="" loading="lazy"></a><a target="_blank" href="https://triton.com/" class="item"><img src="/images/logos/triton.webp" alt="" loading="lazy"></a><a target="_blank" href="https://www.tsys.com/" class="item"><img src="/images/logos/TSYS.webp" alt="" loading="lazy"></a><a target="_blank" href="https://www.verifone.com/en" class="item"><img src="/images/logos/verifone.webp" alt="" loading="lazy"></a><a target="_blank" href="https://www.fisglobal.com/en/gs?q=/merchant-solutions-worldpay" class="item"><img src="/images/logos/Worldpay-logo.webp" alt="" loading="lazy"></a><a target="_blank" href="http://www.posportal.com/" class="item"><img src="/images/logos/posportal.webp" alt="" loading="lazy"></a>' }, 1500);
+
+			</script>
+
+	</body>
+</html>
