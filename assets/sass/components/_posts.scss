@@ -29,6 +29,11 @@
 					border-radius: 0 0 8px 0;
 				}
 			}
+			
+			// Hide most recent blog post
+			&:first-child {
+				display: none;
+			}
 
 			> :last-child {
 				margin-bottom: 0;

@@ -1,4 +1,82 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-30T16:01:38-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Why is PCI compliance important?</title><link href="http://localhost:4000/2022/07/27/PCI-compliance.html" rel="alternate" type="text/html" title="Why is PCI compliance important?" /><published>2022-07-27T15:01:53-07:00</published><updated>2022-07-27T15:01:53-07:00</updated><id>http://localhost:4000/2022/07/27/PCI-compliance</id><content type="html" xml:base="http://localhost:4000/2022/07/27/PCI-compliance.html"><![CDATA[<p>PCI compliance is a set of security standards that are used to protect credit card information. It was created by the Payment Card Industry Security Standards Council. The standards were first introduced in 2004 and they have been updated several times since then.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-31T22:01:08-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Recent Visa &amp;amp; Mastercard Rate Hike</title><link href="http://localhost:4000/2022/08/31/unfair-rate-hike.html" rel="alternate" type="text/html" title="Recent Visa &amp;amp; Mastercard Rate Hike" /><published>2022-08-31T15:01:53-07:00</published><updated>2022-08-31T15:01:53-07:00</updated><id>http://localhost:4000/2022/08/31/unfair-rate-hike</id><content type="html" xml:base="http://localhost:4000/2022/08/31/unfair-rate-hike.html"><![CDATA[<h2 id="visa--mastercard-may-have-raised-your-fees">VISA &amp; MASTERCARD may have RAISED YOUR FEES</h2>
+
+<p>There was a major Visa/Mastercard rate hike that affected restaurants, bars, cafes, retail, services etc. In response, a class-action suit was filed against the major card brands and settlement payouts are available to all the merchants affected…</p>
+
+<p>Here is a rundown of the lawsiut, courtesy of <a href="https://www.natso.com/topics/guidance-on-visa-mastercard-swipe-fee-class-action-settlement">natso.com:</a></p>
+
+<blockquote>
+  <p>A Federal Court has preliminarily approved a proposed settlement of a maximum of approximately $6.24 billion and a minimum of at least $5.54 billion in a class action lawsuit, called In re Payment Card Interchange Fee and Merchant Discount Antitrust Litigation, MDL 1720 (MKB) (JO). The lawsuit is about claims that merchants paid excessive fees to accept Visa and Mastercard cards because Visa and Mastercard, individually, and together with their respective member banks, violated the antitrust laws. A number of NATSO members who may be a part of this class have sought guidance as to how this process will proceed and what steps they should take as part of this process. 
+<br /> <br /></p>
+
+  <p>Following preliminary approval, merchants will receive official notice of the settlement and will need to decide whether they want to:  (1) receive funds from the class settlement; (2) opt out of the settlement completely; or (3) object to the terms of the settlement in order to try to convince the court to reject it.  Each option has its own pros and cons, and merchants may want to consult with their own counsel before making any final decisions. Although all companies should consult counsel before proceeding, as a general matter companies that do not plan to file their own independent lawsuit going forward have decided that it makes the most sense to accept the settlement money associated with this litigation.</p>
+</blockquote>
+
+<p><strong>If you have Accepted Visa or Mastercard since 2004, you may be getting ripped off without even knowing it.</strong></p>
+
+<hr />
+
+<div class="inner flex" style="flex-direction: column;">
+    <h2 style="text-align: center">Our Pricing</h2>
+    <!-- <img  src="/images/pricing_table.webp" alt=""> -->
+    <table style="margin: 0 auto 2rem auto;width: 100%;max-width:540px">
+        <thead>
+            <tr>
+                <th>Processors</th>
+                <th>Retail Fee</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Square</td>
+                <td>3.5% + $0.20</td>
+            </tr>
+            <tr>
+                <td>Chase</td>
+                <td>3% + $0.20</td>
+            </tr>
+            <tr>
+                <td>Wells Fargo</td>
+                <td>3.2% + $0.20</td>
+            </tr>
+            <tr>
+                <td>Stripe</td>
+                <td>3.5% + $0.20</td>
+            </tr>
+            <tr>
+                <td>Paypal</td>
+                <td>2.99% + $0.48</td>
+            </tr>
+            <tr>
+                <td style="color:#F5841F">Secure Pay Service</td>
+                <td class="circled">2.2% + $0.20</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<hr />
+
+<div class="inner side-by-side">
+    <div>
+        <h2>What you need to know</h2>
+        <ul>
+            <li>Identify where the excess fees are hiding</li>
+            <li>Determine the risks and pitfalls of going out to bid for your credit card processing business</li>
+            <li>Recognize the proper approach to managing an efficient merchant account</li>
+        </ul>
+    </div>
+    <div>
+        <h2>A partner on your side</h2>
+        <ul>
+            <li>We negotiate with the processors on your behalf to reduce your&nbsp; rates and eliminate hidden fees.</li>
+            <li>We regularly monitor your statements to watch for rising rates&nbsp; &nbsp; and additional fees.</li>
+        </ul>
+    </div>
+</div>
+
+<hr />
+
+<h3 id="use-the-form-below-to-get-in-contact-and-well-help-you-decide-if-youre-being-scammed-or-youre-getting-a-fair-deal">use the form below to get in contact, and we’ll help you decide if you’re being scammed, or you’re getting a fair deal.</h3>]]></content><author><name></name></author><summary type="html"><![CDATA[VISA &amp; MASTERCARD may have RAISED YOUR FEES]]></summary></entry><entry><title type="html">Why is PCI compliance important?</title><link href="http://localhost:4000/2022/07/27/PCI-compliance.html" rel="alternate" type="text/html" title="Why is PCI compliance important?" /><published>2022-07-27T15:01:53-07:00</published><updated>2022-07-27T15:01:53-07:00</updated><id>http://localhost:4000/2022/07/27/PCI-compliance</id><content type="html" xml:base="http://localhost:4000/2022/07/27/PCI-compliance.html"><![CDATA[<p>PCI compliance is a set of security standards that are used to protect credit card information. It was created by the Payment Card Industry Security Standards Council. The standards were first introduced in 2004 and they have been updated several times since then.</p>
 
 <p>The standards are designed to protect credit card information from being stolen by hackers. They are also designed to ensure that credit card information is not accidentally leaked by businesses.</p>
 
