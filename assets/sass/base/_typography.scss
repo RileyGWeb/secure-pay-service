@@ -82,7 +82,7 @@
 	}
 
 	h1 {
-		font-size: 3.25rem;
+		font-size: 2.75rem;
 		line-height: 1.25;
 		margin: 0 0 (_size(element-margin) * 1) 0;
 	}
@@ -114,6 +114,10 @@
 		h1 {
 			font-size: 2rem;
 			margin: 0 0 (_size(element-margin) * 0.75) 0;
+
+			&.splash {
+				font-size: 3rem;
+			}
 		}
 
 		h2 {
@@ -137,6 +141,24 @@
 				display: none;
 			}
 		}
+		h1.splash {
+			font-size: 2rem;
+		}
+	}
+
+	p.splash-subtitle {
+		font-size: 1.6rem;
+		opacity: 0.8;
+		margin-bottom: 1rem;
+	}
+	h1.splash {
+		max-width:410px;
+		margin-bottom: 2rem;
+	}
+	.banner h1.splash,
+	.banner p.splash-subtitle {
+		font-family: 'Poppins';
+		font-weight: 800;
 	}
 
 	sub {
@@ -319,4 +341,11 @@
 		font-weight: 600;
 		font-display: swap;
 		src: url('/assets/webfonts/Poppins/Poppins-SemiBoldItalic.ttf') format('truetype');
+	}
+	@font-face {
+		font-family: 'Poppins';
+		font-style: normal;
+		font-weight: 800;
+		font-display: swap;
+		src: url('/assets/webfonts/Poppins/Poppins-ExtraBold.ttf') format('truetype');
 	}
