@@ -31,9 +31,9 @@
 			}
 			
 			// Hide most recent blog post
-			// &:first-child {
-			// 	display: none;
-			// }
+			&:first-child {
+				display: none;
+			}
 
 			> :last-child {
 				margin-bottom: 0;
