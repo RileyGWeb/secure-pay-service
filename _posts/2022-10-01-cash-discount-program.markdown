@@ -35,10 +35,8 @@ purchases are required, and no gimmicks. Just one flat monthly fee for the life 
 is just an animated video explaining it. So here is some feedback from real customers that implemented 
 EasyPay's Cash Discount Program. 
  
-It was exactly what I was told it was going to be. 
- 
-It's been exactly what I've been told. 
- 
+It was exactly what I was told it was going to be.
+
 I love the program. It's exactly as I was told. We're saving, on average, $25 to $3,500 a month. 
  
 It saved me a lot of money. 
@@ -46,8 +44,6 @@ It saved me a lot of money.
 It's gone from two to month basis. I would guess it would probably save five to $6,000. 
  
 Saving $30,000. I'm very happy. 
- 
-It's so easy. It is literally easy to keep a. 
  
 Small business thriving as much as possible. This is one of the best things that a small business can do. 
  
@@ -57,8 +53,6 @@ works, then you're literally saving yourself thousands. If it doesn't, then just
  
 Anyone that owns a business that takes credit card definitely I'm recommending it to them. It's definitely 
 going to save them a lot of money. 
- 
-I would totally recommend ECT. 
  
 We are so confident you'll never switch merchant service providers again that we are going to give you a 
 free credit card terminal and we will never require you to sign any long term contracts. Join the movement 
