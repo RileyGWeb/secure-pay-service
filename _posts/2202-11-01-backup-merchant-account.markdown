@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Why Business Owners Need a Backup Merchanct Account"
-date:   2022-10-01 15:01:53 -0700
+title:  "Why Business Owners Need a Backup Merchant Account"
+date:   2022-11-01 3:00:00 -0700
 categories: 
 imageURL: /images/planB.webp
 snippet: Disaster can strike when you least expect it. Every responsibile business owner knows how important it is...
