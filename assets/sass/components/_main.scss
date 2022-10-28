@@ -552,6 +552,7 @@
 		align-content: center;
 		border-radius: 16px;
 		padding: 0.75rem;
+		border: solid 1px #ededed;
 
 		p {
 			width: 100%;
@@ -568,10 +569,10 @@
 
 		&:hover {
 			box-shadow:
-				0px 0px 5.3px rgba(0, 0, 0, 0.033),
-				0px 0px 14.7px rgba(0, 0, 0, 0.046),
-				0px 0px 35.3px rgba(0, 0, 0, 0.065),
-				0px 0px 117px rgba(0, 0, 0, 0.1)
+			0.2px 0.2px 3.6px rgba(0, 0, 0, 0.017),
+			0.5px 0.5px 10px rgba(0, 0, 0, 0.025),
+			1.2px 1.2px 24.1px rgba(0, 0, 0, 0.033),
+			4px 4px 80px rgba(0, 0, 0, 0.05)
 			;
 		}
 
@@ -605,6 +606,66 @@
 
 			img {
 				height: 5rem;
+			}
+		}
+	}
+
+} 
+.benefits-grid {
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-self: center;
+    margin: 2rem 3rem 4rem 3rem;
+
+	& > div {
+		border: none;
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		border-radius: 16px;
+		padding: 0.75rem;
+
+		p {
+			width: 100%;
+			text-align: center;
+			font-size: 1.2rem;
+			margin-top: 1rem;
+			margin-bottom: 0;
+		}
+
+		img {
+			filter: invert(9%) sepia(10%) saturate(1926%) hue-rotate(186deg) brightness(98%) contrast(89%);
+			height: 6rem;
+		}
+
+	}
+
+	@include breakpoint('<=medium') {
+
+		& > div {
+
+			img {
+				height: 5rem;
+			}
+		}
+	}
+
+	@include breakpoint('<=small') {
+		grid-template-columns: 1fr 1fr;
+
+		& > div {
+
+			img {
+				height: 6rem;
+			}
+		}
+	}
+	@include breakpoint('<=xsmall') {
+
+		& > div {
+
+			img {
+				height: 4rem;
 			}
 		}
 	}
