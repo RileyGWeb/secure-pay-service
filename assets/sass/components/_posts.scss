@@ -6,6 +6,9 @@
 		margin: 0 0 _size(element-margin) 0;
 
 		article {
+			// Hide most recent blog post
+			// padding: 1.5rem!important;
+			
 			.image {
 				display: block;
 				width: 100%;
@@ -30,7 +33,7 @@
 				}
 			}
 			
-			// Hide most recent blog post
+			// // Hide most recent blog post
 			// &:first-child {
 			// 	display: none;
 			// }
