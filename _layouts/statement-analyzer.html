@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>{{ page.title }} | Secure Pay Service</title>
+		{% include head.html %}
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			{% include header.html %}
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Section -->
+					<section class="main style1">
+						<header class="small">
+							<h1>{{ page.title }}</h1>
+							<p>{{ page.subtitle }}</p>
+						</header>
+						<div class="inner" style="padding-bottom: 2rem;">
+							{{ content }}
+							<iframe src=https://embed.staitment.com?organizationId=yxenFfOQcM2jsb1aEGdq title="Lead Generator Widget" style="
+
+								position: relative;
+
+								width: 100%;
+
+								height: 840px;
+
+								border: none;
+
+								margin: 0 0 24px 0;
+
+								padding: 0 0 0 0;
+
+								border-radius: 24px;
+
+								overflow: visible;">
+
+								</iframe>
+
+								{% include button.html link="/contact" text="Request Merchant Services" %}
+						</div>
+					</section>
+
+				{% include contact-form.html %}
+					<!-- Footer -->
+					{% include footer.html %}
+
+			</div>
+
+		<!-- Scripts -->
+			{% include scripts.html %}
+			<script>
+				function uploadFile(fileObject) {
+
+const url = 'https://us-central1-staitment-prod.cloudfunctions.net/externalApi/statementUpload';
+
+
+
+const headers = {
+
+	'Content-Type': 'application/pdf',
+
+	'Accept': 'application/json',
+
+	'x-api-key': '7UQokRTHgphS4EtKmDc9f2BJn2JA4JgX'
+
+};
+
+
+
+fetch(url, {
+
+	method: "POST",
+
+	headers: headers,
+
+	body: fileObject
+
+}).then(response => {
+
+	if (response.status === 200) {
+
+		return response.json();
+
+	} else if (response.status === 202) {
+
+		return true;
+
+	} else {
+
+		reject(response.status.toString());
+
+	})
+
+ .catch(e => console.log(e.message));
+
+}
+			</script>
+
+	</body>
+</html>
