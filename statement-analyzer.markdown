@@ -4,10 +4,11 @@
 
 layout: statement-analyzer
 title: Statement Analyzer Tool
-subtitle: A subtitle can go here
+subtitle: 
 imageURL: 
 imageAltText: 
 ---
 
-### more content can go here
-if you want
+### Start below to receive the rate you deserve.
+
+Once it’s all done we will contact you with further instructions for boarding or optimization pricing.  
