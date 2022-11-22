@@ -31,7 +31,16 @@
 			&:nth-child(-n + 3) {
 				border-top-width: 0;
 			}
+			
+			&:last-child {
+				width: 100%;
 
+				p {
+					max-width: 400px;
+					margin: 0 auto;
+				}
+			}
+			
 			h3 {
 				font-size: 1.25rem;
 				margin: 0 0 (_size(element-margin) * 0.325) 0;
@@ -68,12 +77,7 @@
 				}
 
 				&:last-child {
-					width: 100%;
-
-					p {
-						max-width: 400px;
-						margin: 0 auto;
-					}
+					width: 50%;
 				}
 			}
 		}
@@ -101,6 +105,9 @@
 
 				&:nth-child(-n + 1) {
 					border-top-width: 0;
+				}
+				&:last-child {
+					width: 100%;
 				}
 			}
 		}
