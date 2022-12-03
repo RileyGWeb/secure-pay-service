@@ -7,7 +7,7 @@
 
 		article {
 			// Hide most recent blog post
-			// padding: 1.5rem!important;
+			padding: 1.5rem!important;
 			
 			.image {
 				display: block;
@@ -33,10 +33,10 @@
 				}
 			}
 			
-			// // Hide most recent blog post
-			// &:first-child {
-			// 	display: none;
-			// }
+			// Hide most recent blog post
+			&:first-child {
+				display: none;
+			}
 
 			> :last-child {
 				margin-bottom: 0;

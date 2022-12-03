@@ -1,4 +1,118 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-21T21:38:38-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Why Business Owners Need a Backup Merchant Account</title><link href="http://localhost:4000/2022/11/01/backup-merchant-account.html" rel="alternate" type="text/html" title="Why Business Owners Need a Backup Merchant Account" /><published>2022-11-01T03:00:00-07:00</published><updated>2022-11-01T03:00:00-07:00</updated><id>http://localhost:4000/2022/11/01/backup-merchant-account</id><content type="html" xml:base="http://localhost:4000/2022/11/01/backup-merchant-account.html"><![CDATA[<p>Disaster can strike when you least expect it. Every responsibile business owner knows how important it is to be prepared for the unexpected, especially when it comes to your operational systems. Is your business dependent on credit and debit card payments to survive? If you answered yes to this question, having a backup merchant account is of the utmost importance. It pays to be prepared.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-02T20:22:08-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">E-commerce Payment Processing 101: A Beginner’s Guide</title><link href="http://localhost:4000/2022/12/01/e-commerce-payment-processing.html" rel="alternate" type="text/html" title="E-commerce Payment Processing 101: A Beginner’s Guide" /><published>2022-12-01T03:00:00-07:00</published><updated>2022-12-01T03:00:00-07:00</updated><id>http://localhost:4000/2022/12/01/e-commerce-payment-processing</id><content type="html" xml:base="http://localhost:4000/2022/12/01/e-commerce-payment-processing.html"><![CDATA[<p>Opening your ecommerce store is exciting. You’ve created and sourced your products, you’ve built an awesome website, and now it’s time for one of the most important steps — <strong>getting paid.</strong></p>
+
+<p>Understanding how ecommerce payment processing works is a crucial part of opening an online business. But let’s be honest, if you’re not a financial wizard or very technical, you might find the whole concept of ecommerce credit card processing complex and hard to navigate. The good news is that we’re here to break it down for you.</p>
+
+<p>In this post, you’ll learn how gateways and payment processors work together, and we’ll share some interesting info on how you can make the best choices for your business.</p>
+
+<h3 id="online-payment-methods">Online Payment Methods</h3>
+
+<p>Before we get into how payment processing works, let’s review some of the different payments methods customers prefer for online purchases:</p>
+
+<ul class="checked-list">
+  <li><strong>Credit Cards:</strong> One of the most popular and straightforward ways to pay both offline and online.</li>
+  <li><strong>Direct Debit:</strong> Customers can enter their bank account details, making this the equivalent of paying in cash or by check.</li>
+  <li><strong>Alternative Payments Methods:</strong> This includes wallets, like PayPal, Amazon Pay, Google Pay and Apple Pay, and buy-now-pay-later solutions, like Affirm, Afterpay, Klarna and Sezzle.</li>
+  <li><strong>Digital Currency:</strong> A very small number of people do pay with Bitcoin or another cryptocurrency.</li>
+</ul>
+
+<p>There are a few other options you can give your customers for paying online during the checkout process, such as ACH and invoicing. However, as you can see from the chart below, credit cards, alternative payments and direct debit are the ones most people prefer.</p>
+
+<h3 id="three-elements-of-ecommerce-payment-processing">Three Elements of Ecommerce Payment Processing</h3>
+
+<p>Now that we know what types of payments you can choose to offer on your online store, it’s time to talk about payment processing. While there’s definitely more to it than this, an easy way to summarize the concept is to quickly define each of the elements:</p>
+
+<ul class="checked-list">
+  <li><strong>Payment gateways:</strong> act as the courier between your ecommerce website where the customer enters their payment information and your payment processor</li>
+  <li><strong>Payment processors:</strong> take the information from the gateway, verify that the customer has the funds, and deposit the money in your merchant account</li>
+  <li><strong>Merchant accounts:</strong> receive the funds once they are processed</li>
+</ul>
+
+<p>Sometimes people use the words gateway and processor interchangeably even though, technically, they do different things, making it extra confusing.</p>
+
+<p>Additionally, payment service providers (PSP), also called merchant service providers (MSP), can manage the complete end-to-end process, from the technical connections to depositing funds.</p>
+
+<h3 id="how-do-ecommerce-payment-processors-gateways-and-merchant-accounts-work-together">How Do Ecommerce Payment Processors, Gateways and Merchant Accounts Work Together?</h3>
+
+<p>Now that we’ve explained each element, let’s review the steps for a standard transaction to see how the payment systems work together once the customer is finished adding items to their shopping cart:</p>
+
+<ul class="checked-list">
+  <li>Step 1. The customer enters their credit or debit information at checkout.</li>
+  <li>Step 2. The payment gateway secures the data and sends it to the payment processor.</li>
+  <li>Step 3. The payment processor checks with the credit card network to ensure that the customer has the funds to cover the purchase.</li>
+  <li>Step 4. The customer’s credit card issuing bank either accepts or rejects the payment request.</li>
+  <li>Step 5. The payment processor then sends the results (approved or denied) through the payment gateway, so the customer can view on the merchant’s website if the transaction was approved.</li>
+  <li>Step 6. The payment processor issues the funds to either the merchant account or the merchant’s bank.</li>
+</ul>
+
+<p>What’s sometimes most surprising is that the whole process takes place in a matter of seconds — even though a lot of things are happening.</p>
+
+<h3 id="important-things-to-consider-when-choosing-an-ecommerce-payment-processor">Important things to consider when choosing an Ecommerce Payment Processor</h3>
+
+<p>Once you’ve collected and transferred the data, it’s time for the payment processor to actually process the payment. This is where the majority of the activities happen, from checking with the credit card company and authorizing the payment to transferring the money into your account.
+Here’s some general things to know about your payment processor:</p>
+
+<ol>
+  <li><strong>They should be PCI compliant.</strong>
+Any company that accepts, processes, stores or transmits credit card information must be compliant with the Payment Card Industry Data Security Standard (PCI DSS). This means that you and your payment processor must comply with these requirements. 
+Secure Pay Service is always PCI compliant. We have a great article <em>ADD LINK HERE</em> here where we go into detail about the importance of PCI compliance.</li>
+  <li><strong>They should create tokens for sensitive payment information.</strong>
+We touched on this above, but it’s worth explaining how it works in more detail. Essentially, to secure your customer’s payment information — especially if you allow customers to save their payment information to use for repeat purchases or recurring billing— your payment processor should use tokenization. 
+How this works is that the moment the credit or debit card information is captured, the processor converts the account numbers into a token that it can use to identify the specific customer. By doing this, you’re protecting yourself and your customers from hackers that might attempt to steal sensitive payment information.
+Secure Pay Service guarantees the highest level of security for your payments.</li>
+  <li><strong>The payment methods they accept.</strong>
+This is probably the most important feature of your payment processor — at least to your customers. Does it allow you to accept the payment methods your customers want to use? 
+For instance, while Visa and Mastercard are widely accepted all over the world, it’s a very different story for American Express and Discover. Additionally, if your store sells more expensive items, customers might prefer an option, like Klarna, to break up the payments or buy now, pay later. You want to give customers as many options as possible to ensure they complete their purchase. Secure Pay Service is proud to offer a wide array of payment options for your customers.</li>
+  <li><strong>How much they charge in fees.</strong>
+Now, this is probably the thing you care about most. As a small business, you don’t want to get trapped into paying astronomical fees for your payment processor, but sometimes the fees can be difficult to understand. 
+Typically though, companies will charge a percentage, as well as a fixed fee per transaction. However, some may charge a monthly fee for a subscription instead of transaction fees. There are also extra fees you might be required to pay for things like chargebacks, disputes and international payments.</li>
+</ol>
+
+<div class="inner flex" style="flex-direction: column;">
+    <h2 style="text-align: center">Our Pricing</h2>
+    <!-- <img  src="/images/pricing_table.webp" alt=""> -->
+    <table style="margin: 0 auto 2rem auto;width: 100%;max-width:540px">
+        <thead>
+            <tr>
+                <th>Processors</th>
+                <th>Retail Fee</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Square</td>
+                <td>3.5% + $0.20</td>
+            </tr>
+            <tr>
+                <td>Chase</td>
+                <td>3% + $0.20</td>
+            </tr>
+            <tr>
+                <td>Wells Fargo</td>
+                <td>3.2% + $0.20</td>
+            </tr>
+            <tr>
+                <td>Stripe</td>
+                <td>3.5% + $0.20</td>
+            </tr>
+            <tr>
+                <td>Paypal</td>
+                <td>2.99% + $0.48</td>
+            </tr>
+            <tr>
+                <td style="color:#F5841F">Secure Pay Service</td>
+                <td class="circled">2.2% + $0.20</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>By now, you should have a better understanding of payment gateways, payment processors, merchant accounts — and how they all work together. You are always welcoe to get in contact with us if you’d like any further questions answered.</p>
+
+<p>Whether you’re just starting out or a fully established business, payments are a core component of your success. There’s no shortage of options for you to choose from — but you need a payment processor that addresses your specific needs as well as those of your customers. Secure Pay Service is dedicated to meeting these needs with excellence. Contact us below to request merchant services today!</p>
+
+<p><a href="/contact" class="button next" style="cursor: pointer;">Request Merchant Services</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Opening your ecommerce store is exciting. You’ve created and sourced your products, you’ve built an awesome website, and now it’s time for one of the most important steps — getting paid.]]></summary></entry><entry><title type="html">Why Business Owners Need a Backup Merchant Account</title><link href="http://localhost:4000/2022/11/01/backup-merchant-account.html" rel="alternate" type="text/html" title="Why Business Owners Need a Backup Merchant Account" /><published>2022-11-01T03:00:00-07:00</published><updated>2022-11-01T03:00:00-07:00</updated><id>http://localhost:4000/2022/11/01/backup-merchant-account</id><content type="html" xml:base="http://localhost:4000/2022/11/01/backup-merchant-account.html"><![CDATA[<p>Disaster can strike when you least expect it. Every responsibile business owner knows how important it is to be prepared for the unexpected, especially when it comes to your operational systems. Is your business dependent on credit and debit card payments to survive? If you answered yes to this question, having a backup merchant account is of the utmost importance. It pays to be prepared.</p>
 
 <h2 id="why-bother-with-a-backup-merchant-account">Why bother with a backup merchant account?</h2>
 

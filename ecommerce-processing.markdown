@@ -5,7 +5,7 @@
 layout: service
 wrapperClass: ecommerce-processing
 title: E-commerce Processing
-subtitle: The right e-commerce credid card processor could be your key to higher profits.
+subtitle: The right e-commerce credit card processor could be your key to higher profits.
 imageURL: images/ecom.webp
 imageAltText: E-commerce Image
 ---
